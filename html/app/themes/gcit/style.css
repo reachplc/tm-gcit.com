@@ -1,3 +1,16 @@
+/*!
+Theme Name: TM GCIT
+Theme URI: https://github.com/trinitymirror/tm-gcit.com/
+Author: Trinity Mirror Creative
+Author URI: http://www.trinitymirror.com
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: Copyright Trinity Mirror
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: tm-gcit
+*/
+
 .foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
   width: 0; }
@@ -188,8 +201,8 @@ select {
 }
 
 .wrapper-content{
-    background-color: lime; 
-    
+    background-color: lime;
+
 
 }
 
@@ -6361,10 +6374,10 @@ overflow:hidden;
 
 .blackstrip_text
 {   color: white;
-    
+
     font-family: "Open Sans Light", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 40px;
-    font-weight: normal; 
+    font-weight: normal;
     vertical-align: center;
 }
 
@@ -6374,12 +6387,12 @@ overflow:hidden;
     margin-bottom:10px;
     font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
     font-size:24px;
-    font-weight: normal; 
-    line-height:1.1em; 
+    font-weight: normal;
+    line-height:1.1em;
 
 }
 
-.whatis 
+.whatis
 {
   position: relative;
   padding-left: 20px;
@@ -6427,7 +6440,7 @@ overflow:hidden;
 { color: #2dc1e1;
 }
 
-.how 
+.how
 {
   position: relative;
   padding-left: 20px;
@@ -6481,7 +6494,7 @@ overflow:hidden;
 { color: #2dc1e1;
 }
 
-.home-how 
+.home-how
 { padding-left: 20px;
   padding-right: 20px;
   padding-top: 16px;
@@ -6507,7 +6520,7 @@ overflow:hidden;
   font-weight: normal;
   line-height: 1.1em;
   float: left;
-  max-width: 
+  max-width:
 }
 
 .how-cell-dark-right
@@ -6590,7 +6603,7 @@ vertical-align: middle;
 { float: left;
   width: 200px;
 padding-top: 20px;
-padding-bottom: 40px; 
+padding-bottom: 40px;
 padding-left: 40px;
 padding-right: 1px;
 background-color: #333;
@@ -6606,7 +6619,7 @@ background-color: #333;
 { float: left;
   width: 216px;
 padding-top: 26px;
-padding-bottom: 20px; 
+padding-bottom: 20px;
 margin-left: 60px;
 }
 
@@ -6615,7 +6628,7 @@ margin-left: 60px;
 padding-top: 2px;
 padding-left: 10px;
 padding-right;: 10px;
-padding-bottom: 1px; 
+padding-bottom: 1px;
 color: #1ed2a3;
 font-size: 18pt;
 line-height: 17pt;
@@ -6633,7 +6646,7 @@ line-height: 17pt;
 padding-top: 10px;
 padding-left: 6px;
 padding-right;: 10px;
-padding-bottom: 10px; 
+padding-bottom: 10px;
 color: #1ed2a3;
 font-size: 12pt;
 line-height: 12pt;
@@ -6644,7 +6657,7 @@ line-height: 12pt;
 padding-top: 10px;
 padding-left: 6px;
 padding-right;: 10px;
-padding-bottom: 10px; 
+padding-bottom: 10px;
 color: #f72061;
 font-size: 12pt;
 line-height: 12pt;
@@ -6655,14 +6668,14 @@ line-height: 12pt;
 padding-top: 10px;
 padding-left: 6px;
 padding-right;: 10px;
-padding-bottom: 10px; 
+padding-bottom: 10px;
 color: #f06237;
 font-size: 12pt;
 line-height: 12pt;
 }
 
 .secondary-nav-writer a
-{  
+{
 color: white;
 font-size: 12pt;
 line-height: 12pt;
@@ -6670,7 +6683,7 @@ text-decoration: none;
 }
 
 .secondary-nav-prod a
-{  
+{
 color: white;
 font-size: 12pt;
 line-height: 12pt;
@@ -6678,7 +6691,7 @@ text-decoration: none;
 }
 
 .secondary-nav-desk a
-{  
+{
 color: white;
 font-size: 12pt;
 line-height: 12pt;
@@ -6691,7 +6704,7 @@ text-decoration: none;
 padding-top: 2px;
 padding-left: 20px;
 padding-right;: 10px;
-padding-bottom: 1px; 
+padding-bottom: 1px;
 color: #f72061;
 font-size: 17pt;
 line-height: 17pt;
@@ -6715,14 +6728,14 @@ font-size: 12pt;
 padding-top: 2px;
 padding-left: 40px;
 padding-right;: 2px;
-padding-bottom: 1px; 
+padding-bottom: 1px;
 color: white;
 font-size: 15pt;
 line-height: 17pt;
 }
 
 .icon-pointer-menu-pink-indent a
-{  
+{
 color: #f72061;
 font-size: 11pt;
 }
@@ -6733,7 +6746,7 @@ font-size: 11pt;
 padding-top: 2px;
 padding-left: 20px;
 padding-right;: 10px;
-padding-bottom: 1px; 
+padding-bottom: 1px;
 color: #f06237;
 font-size: 18pt;
 line-height: 17pt;
