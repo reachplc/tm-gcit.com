@@ -14,18 +14,18 @@
     <div class="wrapper">
       <br />
       <!-- <div class="large-3 columns no-pad m-tb">
-        <?php if ( !function_exists('dynamic_sidebar') ||
-!dynamic_sidebar('foot-col-1') ) : ?>
+        <?php if ( ! function_exists( 'dynamic_sidebar' ) ||
+! dynamic_sidebar( 'foot-col-1' ) ) : ?>
         <?php endif; ?>
       </div>
       <div class="large-3 columns m-tb">
-        <?php if ( !function_exists('dynamic_sidebar') ||
-!dynamic_sidebar('foot-col-1a') ) : ?>
+        <?php if ( ! function_exists( 'dynamic_sidebar' ) ||
+! dynamic_sidebar( 'foot-col-1a' ) ) : ?>
         <?php endif; ?>
       </div>
       <div class="large-6 columns no-pad m-tb">
-        <?php if ( !function_exists('dynamic_sidebar') ||
-!dynamic_sidebar('foot-col-2') ) : ?>
+        <?php if ( ! function_exists( 'dynamic_sidebar' ) ||
+! dynamic_sidebar( 'foot-col-2' ) ) : ?>
         <?php endif; ?>
       </div> -->
     </div>
@@ -34,7 +34,7 @@
   <div class="row black-bk">
     <div class="copyright wrapper top">
       <div class="large-3 columns no-pad m-tb"><img src="<?php echo get_template_directory_uri(); ?>/images/trinity-logo-grey.png"/></div>
-      <div class="copyright large-9 columns text-right no-pad m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php echo date("Y") ?> | Website by Trinity Mirror Creative</span>
+      <div class="copyright large-9 columns text-right no-pad m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php echo date( 'Y' ) ?> | Website by Trinity Mirror Creative</span>
       </div>
     </div>
   </div>
@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
 </script>
 
 <script> 
-<?php if( $page == 'useful-guides' ) {?>
+<?php if ( $page == 'useful-guides' ) {?>
 ;(function( $ ){
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.

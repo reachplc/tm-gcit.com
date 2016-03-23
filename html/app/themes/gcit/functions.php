@@ -27,8 +27,8 @@
  *
  * @see twentythirteen_content_width() for template-specific adjustments.
  */
-if ( ! isset( $content_width ) )
-	$content_width = 604;
+if ( ! isset( $content_width ) ) {
+	$content_width = 604; }
 
 /**
  * Add support for a custom header image.
@@ -38,8 +38,8 @@ require get_template_directory() . '/inc/custom-header.php';
 /**
  * Twenty Thirteen only works in WordPress 3.6 or later.
  */
-if ( version_compare( $GLOBALS['wp_version'], '3.6-alpha', '<' ) )
-	require get_template_directory() . '/inc/back-compat.php';
+if ( version_compare( $GLOBALS['wp_version'], '3.6-alpha', '<' ) ) {
+	require get_template_directory() . '/inc/back-compat.php'; }
 
 /**
  * Twenty Thirteen setup.
@@ -60,18 +60,18 @@ if ( version_compare( $GLOBALS['wp_version'], '3.6-alpha', '<' ) )
  */
 function twentythirteen_setup() {
 	/*
-	 * Makes Twenty Thirteen available for translation.
-	 *
-	 * Translations can be added to the /languages/ directory.
-	 * If you're building a theme based on Twenty Thirteen, use a find and
-	 * replace to change 'twentythirteen' to the name of your theme in all
-	 * template files.
+     * Makes Twenty Thirteen available for translation.
+     *
+     * Translations can be added to the /languages/ directory.
+     * If you're building a theme based on Twenty Thirteen, use a find and
+     * replace to change 'twentythirteen' to the name of your theme in all
+     * template files.
 	 */
 	load_theme_textdomain( 'twentythirteen', get_template_directory() . '/languages' );
 
 	/*
-	 * This theme styles the visual editor to resemble the theme style,
-	 * specifically font, colors, icons, and column width.
+     * This theme styles the visual editor to resemble the theme style,
+     * specifically font, colors, icons, and column width.
 	 */
 	add_editor_style( array( 'css/editor-style.css', 'fonts/genericons.css', twentythirteen_fonts_url() ) );
 
@@ -79,14 +79,14 @@ function twentythirteen_setup() {
 	add_theme_support( 'automatic-feed-links' );
 
 	/*
-	 * Switches default core markup for search form, comment form,
-	 * and comments to output valid HTML5.
+     * Switches default core markup for search form, comment form,
+     * and comments to output valid HTML5.
 	 */
 	add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
 
 	/*
-	 * This theme supports all available post formats by default.
-	 * See http://codex.wordpress.org/Post_Formats
+     * This theme supports all available post formats by default.
+     * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
 		'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video'
@@ -99,28 +99,25 @@ function twentythirteen_setup() {
 	);
 
 	function register_my_menu() {
-  register_nav_menu('writer-menu',__( 'Writer Menu' ));
+	register_nav_menu( 'writer-menu',__( 'Writer Menu' ) );
 }
 add_action( 'init', 'register_my_menu' );
 
 	function register_my_menus() {
-  register_nav_menus(
-    array(
-      'desk-menu' => __( 'Desk Menu' ),
-      'production-menu' => __( 'Production Menu' ),
-      'national_writer' => __( 'National_Writer' ),
-      'national_production' => __( 'National_Production' )
-    )
-  );
+	register_nav_menus(
+	array(
+	  'desk-menu' => __( 'Desk Menu' ),
+	  'production-menu' => __( 'Production Menu' ),
+	  'national_writer' => __( 'National_Writer' ),
+	  'national_production' => __( 'National_Production' )
+	)
+	);
 }
 add_action( 'init', 'register_my_menus' );
 
-
-
-
 	/*
-	 * This theme uses a custom image size for featured images, displayed on
-	 * "standard" posts and pages.
+     * This theme uses a custom image size for featured images, displayed on
+     * "standard" posts and pages.
 	 */
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 604, 270, true );
@@ -144,31 +141,31 @@ function twentythirteen_fonts_url() {
 	$fonts_url = '';
 
 	/* Translators: If there are characters in your language that are not
-	 * supported by Source Sans Pro, translate this to 'off'. Do not translate
-	 * into your own language.
+     * supported by Source Sans Pro, translate this to 'off'. Do not translate
+     * into your own language.
 	 */
 	$source_sans_pro = _x( 'on', 'Source Sans Pro font: on or off', 'twentythirteen' );
 
 	/* Translators: If there are characters in your language that are not
-	 * supported by Bitter, translate this to 'off'. Do not translate into your
-	 * own language.
+     * supported by Bitter, translate this to 'off'. Do not translate into your
+     * own language.
 	 */
 	$bitter = _x( 'on', 'Bitter font: on or off', 'twentythirteen' );
 
 	if ( 'off' !== $source_sans_pro || 'off' !== $bitter ) {
 		$font_families = array();
 
-		if ( 'off' !== $source_sans_pro )
-			$font_families[] = 'Source Sans Pro:300,400,700,300italic,400italic,700italic';
+		if ( 'off' !== $source_sans_pro ) {
+			$font_families[] = 'Source Sans Pro:300,400,700,300italic,400italic,700italic'; }
 
-		if ( 'off' !== $bitter )
-			$font_families[] = 'Bitter:400,700';
+		if ( 'off' !== $bitter ) {
+			$font_families[] = 'Bitter:400,700'; }
 
 		$query_args = array(
 			'family' => urlencode( implode( '|', $font_families ) ),
 			'subset' => urlencode( 'latin,latin-ext' ),
 		);
-		$fonts_url = add_query_arg( $query_args, "//fonts.googleapis.com/css" );
+		$fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
 	}
 
 	return $fonts_url;
@@ -183,22 +180,22 @@ function twentythirteen_fonts_url() {
  */
 function twentythirteen_scripts_styles() {
 	/*
-	 * Adds JavaScript to pages with the comment form to support
-	 * sites with threaded comments (when in use).
+     * Adds JavaScript to pages with the comment form to support
+     * sites with threaded comments (when in use).
 	 */
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
-		wp_enqueue_script( 'comment-reply' );
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' ); }
 
 	// Adds Masonry to handle vertical alignment of footer widgets.
-	if ( is_active_sidebar( 'sidebar-1' ) )
-		wp_enqueue_script( 'jquery-masonry' );
+	if ( is_active_sidebar( 'sidebar-1' ) ) {
+		wp_enqueue_script( 'jquery-masonry' ); }
 
 	// Loads JavaScript file with functionality specific to Twenty Thirteen.
 	wp_enqueue_script( 'twentythirteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '2013-07-18', true );
 
 	wp_enqueue_script( 'careers-search', get_template_directory_uri() . '/js/search.js', array( 'jquery' ), '2014-06-24', true );
 
-	wp_enqueue_script( 'careers-hero', get_template_directory_uri() . '/js/jquery.randomHero.js', array());
+	wp_enqueue_script( 'careers-hero', get_template_directory_uri() . '/js/jquery.randomHero.js', array() );
 
 	// Add Source Sans Pro and Bitter fonts, used in the main stylesheet.
 	wp_enqueue_style( 'twentythirteen-fonts', twentythirteen_fonts_url(), array(), null );
@@ -209,7 +206,6 @@ function twentythirteen_scripts_styles() {
 	// Loads our main stylesheet.
 	wp_enqueue_style( 'twentythirteen-style', get_stylesheet_uri(), array(), '2013-07-18' );
 
-
 	// Loads the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'twentythirteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentythirteen-style' ), '2013-07-18' );
 	wp_style_add_data( 'twentythirteen-ie', 'conditional', 'lt IE 9' );
@@ -218,12 +214,12 @@ add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
 
 
 function careers_scripts_videos() {
-  global $page;
-  if( $page == 'useful-guides' ) {
+	global $page;
+	if ( $page == 'useful-guides' ) {
 
-    wp_enqueue_script( 'videos-fitvid', get_template_directory_uri() . '/js/lib/jquery.fitvids.js', array('jquery'), '20140218', true );
+	wp_enqueue_script( 'videos-fitvid', get_template_directory_uri() . '/js/lib/jquery.fitvids.js', array('jquery'), '20140218', true );
 
-  }
+	}
 }
 
 
@@ -244,20 +240,20 @@ add_action( 'wp_enqueue_scripts', 'careers_scripts_videos' );
 function twentythirteen_wp_title( $title, $sep ) {
 	global $paged, $page;
 
-	if ( is_feed() )
-		return $title;
+	if ( is_feed() ) {
+		return $title; }
 
 	// Add the site name.
 	$title .= get_bloginfo( 'name' );
 
 	// Add the site description for the home/front page.
 	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		$title = "$title $sep $site_description";
+	if ( $site_description && ( is_home() || is_front_page() ) ) {
+		$title = "$title $sep $site_description"; }
 
 	// Add a page number if necessary.
-	if ( $paged >= 2 || $page >= 2 )
-		$title = "$title $sep " . sprintf( __( 'Page %s', 'twentythirteen' ), max( $paged, $page ) );
+	if ( $paged >= 2 || $page >= 2 ) {
+		$title = "$title $sep " . sprintf( __( 'Page %s', 'twentythirteen' ), max( $paged, $page ) ); }
 
 	return $title;
 }
@@ -321,7 +317,6 @@ function twentythirteen_widgets_init() {
 		'after_title'   => '</h3>',
 	) );
 
-
 	register_sidebar( array(
 		'name'          => __( 'Blog Sidebar', 'twentythirteen' ),
 		'id'            => 'blog-sidebar',
@@ -357,12 +352,12 @@ function twentythirteen_paging_nav() {
 	global $wp_query;
 
 	// Don't print empty markup if there's only one page.
-	if ( $wp_query->max_num_pages < 2 )
-		return;
+	if ( $wp_query->max_num_pages < 2 ) {
+		return; }
 	?>
-	<nav class="navigation paging-navigation" role="navigation">
+    <nav class="navigation paging-navigation" role="navigation">
 		<h5 class="screen-reader-text"><?php _e( 'Posts navigation', 'twentythirteen' ); ?></h5>
-		<div class="nav-links">
+        <div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
 			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentythirteen' ) ); ?></div>
@@ -372,8 +367,8 @@ function twentythirteen_paging_nav() {
 			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentythirteen' ) ); ?></div>
 			<?php endif; ?>
 
-		</div><!-- .nav-links -->
-	</nav><!-- .navigation -->
+        </div><!-- .nav-links -->
+    </nav><!-- .navigation -->
 	<?php
 }
 endif;
@@ -393,19 +388,19 @@ function twentythirteen_post_nav() {
 	$previous = ( is_attachment() ) ? get_post( $post->post_parent ) : get_adjacent_post( false, '', true );
 	$next     = get_adjacent_post( false, '', false );
 
-	if ( ! $next && ! $previous )
-		return;
+	if ( ! $next && ! $previous ) {
+		return; }
 	?>
 
-	<nav class="navigation post-navigation" role="navigation">
+    <nav class="navigation post-navigation" role="navigation">
 		<h5 class="screen-reader-text"><?php _e( 'Read more posts:', 'twentythirteen' ); ?></h5>
-		<div class="nav-links">
+        <div class="nav-links">
 
 			<?php previous_post_link( '%link', _x( '<span class="meta-nav">&larr;</span> %title', 'Previous post link', 'twentythirteen' ) ); ?>
 			<?php next_post_link( '%link', _x( '%title <span class="meta-nav">&rarr;</span>', 'Next post link', 'twentythirteen' ) ); ?>
 
-		</div><!-- .nav-links -->
-	</nav><!-- .navigation -->
+        </div><!-- .nav-links -->
+    </nav><!-- .navigation -->
 	<?php
 }
 endif;
@@ -421,11 +416,11 @@ if ( ! function_exists( 'twentythirteen_entry_meta' ) ) :
  * @return void
  */
 function twentythirteen_entry_meta() {
-	if ( is_sticky() && is_home() && ! is_paged() )
-		echo '<span class="featured-post">' . __( 'Sticky', 'twentythirteen' ) . '</span>';
+	if ( is_sticky() && is_home() && ! is_paged() ) {
+		echo '<span class="featured-post">' . __( 'Sticky', 'twentythirteen' ) . '</span>'; }
 
-	if ( ! has_post_format( 'link' ) && 'post' == get_post_type() )
-		twentythirteen_entry_date();
+	if ( ! has_post_format( 'link' ) && 'post' == get_post_type() ) {
+		twentythirteen_entry_date(); }
 
 	// Translators: used between list items, there is a space after the comma.
 	$categories_list = get_the_category_list( __( ', ', 'twentythirteen' ) );
@@ -462,10 +457,10 @@ if ( ! function_exists( 'twentythirteen_entry_date' ) ) :
  * @return string The HTML-formatted post date.
  */
 function twentythirteen_entry_date( $echo = true ) {
-	if ( has_post_format( array( 'chat', 'status' ) ) )
-		$format_prefix = _x( '%1$s on %2$s', '1: post format name. 2: date', 'twentythirteen' );
-	else
-		$format_prefix = '%2$s';
+	if ( has_post_format( array( 'chat', 'status' ) ) ) {
+		$format_prefix = _x( '%1$s on %2$s', '1: post format name. 2: date', 'twentythirteen' ); }
+	else {
+		$format_prefix = '%2$s'; }
 
 	$date = sprintf( '<span class="date"><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a></span>',
 		esc_url( get_permalink() ),
@@ -474,8 +469,8 @@ function twentythirteen_entry_date( $echo = true ) {
 		esc_html( sprintf( $format_prefix, get_post_format_string( get_post_format() ), get_the_date() ) )
 	);
 
-	if ( $echo )
-		echo $date;
+	if ( $echo ) {
+		echo $date; }
 
 	return $date;
 }
@@ -505,10 +500,10 @@ function twentythirteen_the_attached_image() {
 	$post                = get_post();
 
 	/*
-	 * Grab the IDs of all the image attachments in a gallery so we can get the URL
-	 * of the next adjacent image in a gallery, or the first image (if we're
-	 * looking at the last image in a gallery), or, in a gallery of one, just the
-	 * link to that image file.
+     * Grab the IDs of all the image attachments in a gallery so we can get the URL
+     * of the next adjacent image in a gallery, or the first image (if we're
+     * looking at the last image in a gallery), or, in a gallery of one, just the
+     * link to that image file.
 	 */
 	$attachment_ids = get_posts( array(
 		'post_parent'    => $post->post_parent,
@@ -531,12 +526,12 @@ function twentythirteen_the_attached_image() {
 		}
 
 		// get the URL of the next image attachment...
-		if ( $next_id )
-			$next_attachment_url = get_attachment_link( $next_id );
+		if ( $next_id ) {
+			$next_attachment_url = get_attachment_link( $next_id ); }
 
 		// or get the URL of the first image attachment.
-		else
-			$next_attachment_url = get_attachment_link( array_shift( $attachment_ids ) );
+		else {
+			$next_attachment_url = get_attachment_link( array_shift( $attachment_ids ) ); }
 	}
 
 	printf( '<a href="%1$s" title="%2$s" rel="attachment">%3$s</a>',
@@ -580,14 +575,14 @@ function twentythirteen_get_link_url() {
  * @return array The filtered body class list.
  */
 function twentythirteen_body_class( $classes ) {
-	if ( ! is_multi_author() )
-		$classes[] = 'single-author';
+	if ( ! is_multi_author() ) {
+		$classes[] = 'single-author'; }
 
-	if ( is_active_sidebar( 'sidebar-2' ) && ! is_attachment() && ! is_404() )
-		$classes[] = 'sidebar';
+	if ( is_active_sidebar( 'sidebar-2' ) && ! is_attachment() && ! is_404() ) {
+		$classes[] = 'sidebar'; }
 
-	if ( ! get_option( 'show_avatars' ) )
-		$classes[] = 'no-avatars';
+	if ( ! get_option( 'show_avatars' ) ) {
+		$classes[] = 'no-avatars'; }
 
 	return $classes;
 }
@@ -603,8 +598,8 @@ add_filter( 'body_class', 'twentythirteen_body_class' );
 function twentythirteen_content_width() {
 	global $content_width;
 
-	if ( is_attachment() )
-		$content_width = 724;
+	if ( is_attachment() ) {
+		$content_width = 724; }
 	elseif ( has_post_format( 'audio' ) )
 		$content_width = 484;
 }
@@ -633,11 +628,11 @@ add_action( 'customize_register', 'twentythirteen_customize_register' );
 
 // add ie conditional html5 shim to header
 function add_ie_html5_shim () {
-    echo '<!--[if lt IE 9]>';
-    echo '<script src="'. get_stylesheet_directory_uri() .'/js/lib/html5shiv-printshiv.js"></script>';
-    echo '<![endif]-->';
+	echo '<!--[if lt IE 9]>';
+	echo '<script src="'. get_stylesheet_directory_uri() .'/js/lib/html5shiv-printshiv.js"></script>';
+	echo '<![endif]-->';
 }
-add_action('wp_head', 'add_ie_html5_shim');
+add_action( 'wp_head', 'add_ie_html5_shim' );
 
 /**
  * Respond
@@ -646,11 +641,11 @@ add_action('wp_head', 'add_ie_html5_shim');
  */
 
 function add_ie_respond () {
-    echo '<!--[if lt IE 9]>';
-    echo '<script src="'. get_stylesheet_directory_uri() .'/js/lib/respond.min.js"></script>';
-    echo '<![endif]-->';
+	echo '<!--[if lt IE 9]>';
+	echo '<script src="'. get_stylesheet_directory_uri() .'/js/lib/respond.min.js"></script>';
+	echo '<![endif]-->';
 }
-add_action('wp_head', 'add_ie_respond');
+add_action( 'wp_head', 'add_ie_respond' );
 
 /**
  * Enqueue Javascript postMessage handlers for the Customizer.
@@ -667,6 +662,6 @@ function twentythirteen_customize_preview_js() {
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
 
-register_sidebar(array('name'=>'Home Right Column',));
+register_sidebar( array('name' => 'Home Right Column',) );
 
 ?>

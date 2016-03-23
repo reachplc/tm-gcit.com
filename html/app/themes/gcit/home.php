@@ -43,7 +43,7 @@
 <!-- <div class="blackstrip">
 </div> -->
 <div class="home-what" >
-	<div class="large-6 left">
+    <div class="large-6 left">
     <a name="what"></a>
         <div class="how-cell-dark-left">
           <img src="<?php echo get_template_directory_uri(); ?>/images/whatwedo.png" alt="What we do" class="icon_img">
@@ -112,7 +112,7 @@ the systems.  </span>
 </div>
 
 <div class="home-what-cyan" >
-	<div class="large-6 left">
+    <div class="large-6 left">
         <a name="why"></a>
         <div class="how-cell-cyan-left">
           <img src="<?php echo get_template_directory_uri(); ?>/images/whywerehere.png" alt="Why we're here" class="icon_img">
@@ -417,7 +417,7 @@ In January 2015 Ben became a full time member of the GCIT team.
   <div class="black-bk">
       <div class="large-3 columns"><img src="<?php echo get_template_directory_uri(); ?>/images/gcit_logo.png" class="footer"/>
       </div>
-      <div class="copyright large-9 columns text-right m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php echo date("Y") ?> | Website by Trinity Mirror Creative</span>
+      <div class="copyright large-9 columns text-right m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php echo date( 'Y' ) ?> | Website by Trinity Mirror Creative</span>
       </div>
   </div>
 
@@ -430,5 +430,3 @@ In January 2015 Ben became a full time member of the GCIT team.
 
 </body>
 </html>
-
-

@@ -39,13 +39,13 @@ Template Name: Blog
 
              <div class="wrapper top">
 
-                <?php if (have_posts()) : ?>
+                <?php if ( have_posts() ) : ?>
 
-                <?php while (have_posts()) : the_post(); ?>
+                <?php while ( have_posts() ) : the_post(); ?>
 
                     <div id="post-<?php the_ID(); ?>">
 
-                        <?php the_content(''); ?>
+                        <?php the_content( '' ); ?>
 
                     </div>
 
@@ -53,9 +53,9 @@ Template Name: Blog
                 
                 <div class="large-8 columns no-pad">
 
-                <?php query_posts('showposts=5'); ?> 
+                <?php query_posts( 'showposts=5' ); ?> 
 
-                <?php if (have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
                 
                 <div class="large-12 columns m-tb no-pad">
@@ -72,7 +72,7 @@ Template Name: Blog
                         <a href="<?php the_permalink(); ?>"><h4 class="grey-dark news-heading"><?php the_title(); ?></h4></a>
 
                         <div class="news-text"><a href="<?php the_permalink(); ?>"> <?php the_excerpt(); ?></a></div>
-                       <div class="news-date cyan-dark "><?php the_time('l, jS F Y') ?></div>
+                       <div class="news-date cyan-dark "><?php the_time( 'l, jS F Y' ) ?></div>
 
 
                     </article><!-- end of news excerpt -->
@@ -90,7 +90,7 @@ Template Name: Blog
 
                     <p>Sorry, but you are looking for something that isn't here.</p>
 
-                    <?php include (TEMPLATEPATH . "/searchform.php"); ?>
+                    <?php include( TEMPLATEPATH . '/searchform.php' ); ?>
 
                 <?php endif; ?> 
 
@@ -100,8 +100,8 @@ Template Name: Blog
 
         <div class="large-4 columns m-tb">
 
-                  <?php if ( !function_exists('dynamic_sidebar') ||
-!dynamic_sidebar('blog-sidebar') ) : ?>
+                  <?php if ( ! function_exists( 'dynamic_sidebar' ) ||
+! dynamic_sidebar( 'blog-sidebar' ) ) : ?>
         <?php endif; ?>
 
                 </div>

@@ -58,7 +58,7 @@ Using the Firefox browser you can access this database and through "plugins" use
 </div>
 
 <div class="home-how" >
-	<div class="large-6 left">
+    <div class="large-6 left">
         <div class="how-cell-dark-left">
           <p>How can this site help me?</p>
           
@@ -74,7 +74,7 @@ into work areas and individual functions.</p>
      </div>
 </div>
  <div class="home-how" >
-	<div class="large-6 left">
+    <div class="large-6 left">
         <div class="how-cell-dark-left">
           <img src="<?php echo get_template_directory_uri(); ?>/images/iconsx2.png" alt="How this site can help you - icons" />
           
@@ -100,7 +100,7 @@ responsible for the print workflow.</h2>
     <div class="large-12 whatis">
         <h1>Watch the Introduction Video:</h1>
         <div class="video">
-        	<iframe width="800" height="450" src="https://www.youtube.com/embed/KBlak8ugKpU" frameborder="0" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/KBlak8ugKpU" frameborder="0" allowfullscreen></iframe>
         </div>
     
     </div>

@@ -94,8 +94,8 @@ function twentythirteen_header_style() {
 	$text_color   = get_header_textcolor();
 
 	// If no custom options for text are set, let's bail.
-	if ( empty( $header_image ) && $text_color == get_theme_support( 'custom-header', 'default-text-color' ) )
-		return;
+	if ( empty( $header_image ) && $text_color == get_theme_support( 'custom-header', 'default-text-color' ) ) {
+		return; }
 
 	// If we get this far, we have custom styles.
 	?>
