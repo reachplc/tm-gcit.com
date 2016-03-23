@@ -60,7 +60,7 @@
           <br /><br />
 
           <span class="whattextp">Not only that, but GCIT's eclectic knowledge means they have a behind-the-scenes role in many projects, such as - the general election coverage, Cheltenham Festival coverage, newspaper re-designs and much more.</span>
-          
+
 
         </div>
      </div>
@@ -70,9 +70,9 @@
     <a name="what"></a>
         <div class="how-cell-dark-left">
         <img src="<?php echo get_template_directory_uri(); ?>/images/gotaproblem.png" alt="Got a problem?"  class="icon_img"/>
-    
+
          <img src="<?php echo get_template_directory_uri(); ?>/images/probicon.png" alt="Got a problem" class="whoicon_img_sml">
-          
+
     </div>
     </div>
     <div class="large-6 right">
@@ -80,20 +80,18 @@
 
           <span class="whattexth1">We've put together
 dedicated micro-sites that give you
-the ins and outs of ContentWatch and CHP. 
-<br />The sites are full of great stuff about 
+the ins and outs of ContentWatch and CHP.
+<br />The sites are full of great stuff about
 the systems.  </span>
           <br /><br />
-             <a href="<?php echo get_template(); ?>/contentwatch">
+             <a href="<?php echo esc_url( home_url( '/contentwatch/' ) ); ?>">
     <img src="<?php echo get_template_directory_uri(); ?>/images/contentwatch2.png" alt="ContentWatch"  class="whoicon_img_sml"/>
-    </a>
-    <a href="<?php echo get_template(); ?>/contentwatch">
     <img src="<?php echo get_template_directory_uri(); ?>/images/cwlogo.png" alt="ContentWatch"  class="logo_img_sml"/>
     </a>
     <br />
     <br />
           <!-- <a href="<?php echo get_template(); ?>/contentwatch" class="sitelinks">ContentWatch</a><span class="whattextp"> - complete guide with step by step help. </span>
-          
+
           <br /><br /> -->
 
           <a href="https://sites.google.com/a/trinitymirror.com/chp-knowledgebase/">
@@ -122,19 +120,19 @@ the systems.  </span>
     <div class="large-6 right">
         <div class="how-cell-cyan-right">
 
-          <span class="whattexth1_cyan">GCIT was set up originally to develop, plan and implement the roll-out of ContentWatch throughout all Trinity Mirror titles. 
+          <span class="whattexth1_cyan">GCIT was set up originally to develop, plan and implement the roll-out of ContentWatch throughout all Trinity Mirror titles.
            </span>
           <br /><br />
 
-          <span class="whattextp">Over time the group has grown to include the CHP team, who have installed a new picture system to all areas of the company. 
+          <span class="whattextp">Over time the group has grown to include the CHP team, who have installed a new picture system to all areas of the company.
  </span>
           <br /><br />
 
           <span class="whattextp">Everybody in GCIT has real-world experience, with journalists, photographers, editorial support staff, IT staff and picture deskers in the line-up. </span>
-          
+
 
         </div>
-        
+
     </div>
 </div>
 
@@ -152,7 +150,7 @@ the systems.  </span>
           <span class="whattexth1_blk">RAY DUNN </span>
           <br /><br />
 
-          <span class="whattextp_white">Was Regional Production Editor in the Midlands, overseeing the Birmingham Mail, Birmingham Post, Coventry Telegraph, Sunday Mercury and the region's weekly titles. 
+          <span class="whattextp_white">Was Regional Production Editor in the Midlands, overseeing the Birmingham Mail, Birmingham Post, Coventry Telegraph, Sunday Mercury and the region's weekly titles.
  </span>
           <br /><br />
 
@@ -161,21 +159,21 @@ the systems.  </span>
 
           <span class="whattextp_white"> The GCIT team leader.
           <br /><br />
-          <a href="mailto:ray.dunn@trinitymirror.com">ray.dunn@trinitymirror.com</a> 
+          <a href="mailto:ray.dunn@trinitymirror.com">ray.dunn@trinitymirror.com</a>
           <br /><b>07884 191744</b>
           <br/>
           <hr size=2 />
  </span>
 
         </div>
-        
+
     </div>
 </div>
 
 <div class="home-what-blk-who" >
   <div class="large-6 left">
         <div class="who-cell-dark-left">
-          
+
           <img src="<?php echo get_template_directory_uri(); ?>/images/stevemurphy.png" alt="Steve Murphy" class="whoicon_img_sml">
         </div>
     </div>
@@ -185,29 +183,29 @@ the systems.  </span>
           <span class="whattexth1_blk">STEVE MURPHY </span>
           <br /><br />
 
-          <span class="whattextp_white">An award winning press photographer with over 25 years experience in newspapers as both a photographer and picture editor, Steve was seconded onto the CHP team at the beginning of 2013 with a brief to help to train and support users across the country in CHP, metadata and photographic workflows. 
+          <span class="whattextp_white">An award winning press photographer with over 25 years experience in newspapers as both a photographer and picture editor, Steve was seconded onto the CHP team at the beginning of 2013 with a brief to help to train and support users across the country in CHP, metadata and photographic workflows.
  </span>
           <br /><br />
 
           <span class="whattextp_white">In early 2015 Steve joined GCIT full time as the Senior CHP Executive. He is passionate about photography and the influence of new technology on the creation of images.</span>
           <br /><br />
 
-          <span class="whattextp_white"> 
-          <a href="mailto:steve.murphy@trinitymirror.com">steve.murphy@trinitymirror.com</a> 
+          <span class="whattextp_white">
+          <a href="mailto:steve.murphy@trinitymirror.com">steve.murphy@trinitymirror.com</a>
           <br /><b>07778 20123</b>
           <br/>
           <hr size=2 />
  </span>
 
         </div>
-        
+
     </div>
 </div>
 
 <div class="home-what-blk-who" >
   <div class="large-6 left">
         <div class="who-cell-dark-left">
-          
+
           <img src="<?php echo get_template_directory_uri(); ?>/images/bryanmccomb.png" alt="BRYAN McCOMB" class="whoicon_img_sml">
         </div>
     </div>
@@ -217,32 +215,32 @@ the systems.  </span>
           <span class="whattexth1_blk">BRYAN McCOMB </span>
           <br /><br />
 
-          <span class="whattextp_white">From reporter on regional weeklies to senior production roles on the Daily Mirror, Bryan has 20 years’ experience in newspapers. 
+          <span class="whattextp_white">From reporter on regional weeklies to senior production roles on the Daily Mirror, Bryan has 20 years’ experience in newspapers.
  </span>
           <br /><br />
 
-          <span class="whattextp_white">An original editorial member of the ContentWatch development team, his key tasks now include workflows, configuration, digital/tablet integration and – most importantly – usability. 
+          <span class="whattextp_white">An original editorial member of the ContentWatch development team, his key tasks now include workflows, configuration, digital/tablet integration and – most importantly – usability.
           <br /><br />
           He also draws on extensive previous experience in systems.
 </span>
           <br /><br />
 
-          <span class="whattextp_white"> 
-          <a href="mailto:bryan.mccomb@trinitymirror.com">bryan.mccomb@trinitymirror.com</a> 
+          <span class="whattextp_white">
+          <a href="mailto:bryan.mccomb@trinitymirror.com">bryan.mccomb@trinitymirror.com</a>
           <br /><b>020 7293 3288</b>
           <br/>
           <hr size=2 />
  </span>
 
         </div>
-        
+
     </div>
 </div>
 
 <div class="home-what-blk-who" >
   <div class="large-6 left">
         <div class="who-cell-dark-left">
-          
+
           <img src="<?php echo get_template_directory_uri(); ?>/images/jasondoyle.png" alt="JASON DOYLE" class="whoicon_img_sml">
         </div>
     </div>
@@ -252,15 +250,15 @@ the systems.  </span>
           <span class="whattexth1_blk">JASON DOYLE </span>
           <br /><br />
 
-          <span class="whattextp_white">A techie by trade, Jason was previously with Editorial Support for 11 years with a remit to provide production support, training and development for the Daily Mirror, Sunday Mirror and The People.  
+          <span class="whattextp_white">A techie by trade, Jason was previously with Editorial Support for 11 years with a remit to provide production support, training and development for the Daily Mirror, Sunday Mirror and The People.
  </span>
           <br /><br />
 
           <span class="whattextp_white">The last six years was as deputy manager. He joined GCIT in September 2012, specialising in production workflows, training and support.</span>
           <br /><br />
 
-          <span class="whattextp_white"> 
-          <a href="mailto:jason.doyle@trinitymirror.com">jason.doyle@trinitymirror.com</a> 
+          <span class="whattextp_white">
+          <a href="mailto:jason.doyle@trinitymirror.com">jason.doyle@trinitymirror.com</a>
           <br /><b>020 7293 2185
 </b>
           <br/>
@@ -268,14 +266,14 @@ the systems.  </span>
  </span>
 
         </div>
-        
+
     </div>
 </div>
 
 <div class="home-what-blk-who" >
   <div class="large-6 left">
         <div class="who-cell-dark-left">
-          
+
           <img src="<?php echo get_template_directory_uri(); ?>/images/gaetancotton.png" alt="Gaeten Cotton" class="whoicon_img_sml">
         </div>
     </div>
@@ -285,31 +283,31 @@ the systems.  </span>
           <span class="whattexth1_blk">GAETAN COTTON </span>
           <br /><br />
 
-          <span class="whattextp_white">Former Sunday Mail staff photographer, Gaetan has worked in the UK, USA and Central America as a freelance photographer for all national newspapers. 
+          <span class="whattextp_white">Former Sunday Mail staff photographer, Gaetan has worked in the UK, USA and Central America as a freelance photographer for all national newspapers.
  </span>
           <br /><br />
 
-          <span class="whattextp_white">Passionate about new technology, he 
+          <span class="whattextp_white">Passionate about new technology, he
           specialised in digital asset management and joined the CHP project in November 2011.
           </span>
           <br /><br />
 
-          <span class="whattextp_white"> 
-          <a href="mailto:gaeten.cotton@trinitymirror.com">gaeten.cotton@trinitymirror.com</a> 
+          <span class="whattextp_white">
+          <a href="mailto:gaeten.cotton@trinitymirror.com">gaeten.cotton@trinitymirror.com</a>
           <br /><b>020 7293 2856</b>
           <br/>
           <hr size=2 />
  </span>
 
         </div>
-        
+
     </div>
 </div>
 
 <div class="home-what-blk-who" >
   <div class="large-6 left">
         <div class="who-cell-dark-left">
-          
+
           <img src="<?php echo get_template_directory_uri(); ?>/images/nickmaude.png" alt="Nick Maude" class="whoicon_img_sml">
         </div>
     </div>
@@ -319,34 +317,34 @@ the systems.  </span>
           <span class="whattexth1_blk">NICK MAUDE </span>
           <br /><br />
 
-          <span class="whattextp_white">Nick spent 12 years as part of the Editorial Support team in Canary Wharf. 
- 
+          <span class="whattextp_white">Nick spent 12 years as part of the Editorial Support team in Canary Wharf.
+
  </span>
           <br /><br />
 
-          <span class="whattextp_white">During that time he built up a wealth of 
-knowledge about all Trinity Mirror systems and is one of the most experienced publishing 
-specialists within the group. 
+          <span class="whattextp_white">During that time he built up a wealth of
+knowledge about all Trinity Mirror systems and is one of the most experienced publishing
+specialists within the group.
 <br /><br />
 Joined GCIT in October 2013 with a brief encompassing training, support and documentation.</span>
           <br /><br />
 
-          <span class="whattextp_white"> 
-          <a href="mailto:nick.maude@trinitymirror.com">nick.maude@trinitymirror.com</a> 
+          <span class="whattextp_white">
+          <a href="mailto:nick.maude@trinitymirror.com">nick.maude@trinitymirror.com</a>
           <br /><b>020 7293 2750</b>
           <br/>
           <hr size=2 />
  </span>
 
         </div>
-        
+
     </div>
 </div>
 
 <div class="home-what-blk-who" >
   <div class="large-6 left">
         <div class="who-cell-dark-left">
-          
+
           <img src="<?php echo get_template_directory_uri(); ?>/images/marcfletcher.png" alt="Marc Fletcher" class="whoicon_img_sml">
         </div>
     </div>
@@ -356,22 +354,22 @@ Joined GCIT in October 2013 with a brief encompassing training, support and docu
           <span class="whattexth1_blk">MARC FLETCHER </span>
           <br /><br />
 
-          <span class="whattextp_white">Marc worked as a production artist on the Daily Mirror for eight years before taking up his role in GCIT.  
+          <span class="whattextp_white">Marc worked as a production artist on the Daily Mirror for eight years before taking up his role in GCIT.
  </span>
           <br /><br />
 
           <span class="whattextp_white">He specialises in imaging - including formatting ( manual &amp; automated ), editing, retouching and colour management techniques and best practice.</span>
           <br /><br />
 
-          <span class="whattextp_white"> 
-          <a href="mailto:marc.fletcher@trinitymirror.com">marc.fletcher@trinitymirror.com</a> 
+          <span class="whattextp_white">
+          <a href="mailto:marc.fletcher@trinitymirror.com">marc.fletcher@trinitymirror.com</a>
           <br /><b>020 7293 3004</b>
           <br/>
           <hr size=2 />
  </span>
 
         </div>
-        
+
     </div>
 </div>
 
@@ -379,7 +377,7 @@ Joined GCIT in October 2013 with a brief encompassing training, support and docu
 <div class="home-what-blk-who" >
   <div class="large-6 left">
         <div class="who-cell-dark-left">
-          
+
           <img src="<?php echo get_template_directory_uri(); ?>/images/benhughes.png" alt="Ben Hughes" class="whoicon_img_sml">
         </div>
     </div>
@@ -389,25 +387,25 @@ Joined GCIT in October 2013 with a brief encompassing training, support and docu
           <span class="whattexth1_blk">BEN HUGHES </span>
           <br /><br />
 
-          <span class="whattextp_white">Ben started work at the Manchester Evening News in 1993. 
-He worked on the picture desk for several years before moving to I.T. where he helped implement and maintain the picture desk live image and archive solution, as well as providing general editorial system support. 
+          <span class="whattextp_white">Ben started work at the Manchester Evening News in 1993.
+He worked on the picture desk for several years before moving to I.T. where he helped implement and maintain the picture desk live image and archive solution, as well as providing general editorial system support.
  </span>
           <br /><br />
 
-          <span class="whattextp_white">Ben was co-opted to the GCIT team in August 2013. Since then he has travelled the country training hundreds of users in CHP and metadata. 
+          <span class="whattextp_white">Ben was co-opted to the GCIT team in August 2013. Since then he has travelled the country training hundreds of users in CHP and metadata.
 In January 2015 Ben became a full time member of the GCIT team.
 </span>
           <br /><br />
 
-          <span class="whattextp_white"> 
-          <a href="mailto:ben.hughes@trinitymirror.com">ben.hughes@trinitymirror.com</a> 
+          <span class="whattextp_white">
+          <a href="mailto:ben.hughes@trinitymirror.com">ben.hughes@trinitymirror.com</a>
           <br /><b>07881 851939</b>
           <br/>
           <hr size=2 />
  </span>
 
         </div>
-        
+
     </div>
 </div>
 
