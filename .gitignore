@@ -1,0 +1,52 @@
+# tm-gcit.com
+
+## System
+
+error_log
+.DS_Store
+
+## Server
+
+.env
+/shared/*
+
+## Development
+
+bin
+.vagrant
+vendor/*
+
+## NodeJS
+
+node_modules/
+npm-debug.log
+
+## WordPress
+
+html/wp-config.php
+html/wp/*
+html/media/*
+
+!html/media/index.php
+
+### Languages
+html/app/languages/*
+
+#### White-list Plugins
+!html/app/languages/index.php
+
+### Plugins
+html/app/db.php
+html/app/plugins/*
+html/app/mu-plugins/*
+
+#### White-list Plugins
+!html/app/plugins/index.php
+!html/app/mu-plugins/index.php
+
+### Themes
+.sass-cache
+html/app/themes/*
+
+#### White-list Themes
+!html/app/themes/index.php

@@ -1,0 +1,71 @@
+{
+  "name": "trinitymirror/tm-gcit.com",
+  "type": "project",
+  "license": "",
+  "description": "",
+  "homepage": "http://www.tm-gcit.com",
+  "authors": [
+    {
+      "name": "Michael Bragg",
+      "email": "michael@michaelbragg.net",
+      "homepage": "http://www.michaelbragg.net"
+    },
+		{
+			"name": "Rebecca Shipley",
+			"email": "rebecca.shipley@trinitymirror.com"
+		}
+  ],
+  "keywords": [
+    "wordpress",
+    "composer",
+    "wp"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.4.x",
+    "vlucas/phpdotenv": "2.0.x",
+    "composer/installers": "1.0.x",
+    "wpackagist-plugin/wp-google-analytics": "1.4.x",
+    "wpackagist-plugin/wp-robots-txt": "1.1",
+    "wpackagist-plugin/wp-security-audit-log": "2.2.x",
+    "wpackagist-plugin/brute-force-login-protection": "1.5.x",
+    "wpackagist-plugin/safe-redirect-manager": "1.7.x",
+    "wpackagist-plugin/custom-contact-forms": "7.0.x",
+		"wpackagist-plugin/column-shortcodes": "0.6.x",
+		"wpackagist-plugin/disable-wpautop": "1.1.x",
+		"wpackagist-plugin/duplicate-page-and-post": "1.1.x",
+		"wpackagist-plugin/lightbox": "1.6.x",
+		"wpackagist-plugin/tablepress": "1.7.x",
+		"wpackagist-plugin/tinymce-advanced": "4.2.x",
+		"wpackagist-plugin/wordpress-importer": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "~2.4",
+    "wp-coding-standards/wpcs": "*",
+    "wpackagist-theme/twentysixteen": "*",
+    "wpackagist-plugin/debug-bar": "*",
+    "wpackagist-plugin/debug-objects": "*",
+    "wpackagist-plugin/debug-queries": "*",
+    "wpackagist-plugin/query-monitor": "*",
+    "wpackagist-plugin/log-deprecated-notices": "*",
+    "wpackagist-plugin/p3-profiler": "*",
+    "wpackagist-plugin/theme-check": "*",
+    "wpackagist-plugin/rewrite-rules-inspector": "*",
+    "wpackagist-plugin/user-switching": "*",
+    "wpackagist-plugin/vip-scanner": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "html/wp",
+    "installer-paths": {
+      "html/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "html/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "html/app/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}
