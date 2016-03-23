@@ -15,6 +15,7 @@ error_log
 bin
 .vagrant
 vendor/*
+composer.lock
 
 ## NodeJS
 
