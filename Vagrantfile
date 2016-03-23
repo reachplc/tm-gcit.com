@@ -17,7 +17,7 @@ Vagrant.configure(2) do |config|
   												"/vagrant/html/media",
   												owner: "www-data",
   												group: "www-data",
-  												mount_options: ["dmode=755,fmode=664"]
+  												mount_options: ["dmode=775,fmode=664"]
 
   config.vm.hostname = "tm-gcit.dev"
   config.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
