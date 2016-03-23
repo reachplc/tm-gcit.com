@@ -662,6 +662,11 @@ function twentythirteen_customize_preview_js() {
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
 
-register_sidebar( array('name' => 'Home Right Column',) );
+register_sidebar(
+	array(
+		'name' => 'Home Right Column',
+		'id' => 'tm-gcit-home-right-column',
+	)
+);
 
 ?>
