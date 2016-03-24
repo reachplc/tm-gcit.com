@@ -52,11 +52,11 @@ Template Name: Page - Writer
                       <div class="innermenu">
                             
                             <div class="icon-pointer">
-                              <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/writer">
+                              <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/writer' ) ); ?>">
                               <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo get_template_directory_uri(); ?>/images/iconpointer_right_writer.png" alt="Writer" width="222" height="142" />
                               </a>
                               <br /> 
-                              <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/production">
+                              <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/production' ) ); ?>">
                               <img class="icon-pointer-img" src="<?php echo get_template_directory_uri(); ?>/images/iconpointer_production.png" alt="Production" />
                               </a>
                             </div>

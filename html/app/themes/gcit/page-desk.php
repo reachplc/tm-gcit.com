@@ -52,16 +52,16 @@ Template Name: Page - Desk
                       <div class="innermenu">
                             
                             <div class="icon-pointer">
-                              <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/desk">
+                              <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/desk' ) ); ?>">
                               <img class=" size-full wp-image-255 alignnone" src="http://localhost/gcit/web/content/uploads/2015/08/iconpointer_right_desk.png" alt="Desk" width="222" height="142" />
                               </a>
                               <br /> 
-                              <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/writer">
+                              <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/writer' ) ); ?>">
                               <img class="icon-pointer-img" style="padding-top: 20px;" src="http://localhost/gcit/web/content/uploads/2015/08/iconpointer_writer.png" alt="Writer" />
                               </a>
                               <br /> 
                               
-                              <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/production">
+                              <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/writer' ) ); ?>">
                               <img class="icon-pointer-img" src="http://localhost/gcit/web/content/uploads/2015/08/iconpointer_production.png" alt="Production" />
                               </a>
                             </div>

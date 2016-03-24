@@ -53,7 +53,7 @@ Template Name: Page
                               </a>
                               <br /> 
                               <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/production">
-                              <img class="size-full wp-image-255 alignnone" style="padding-top: 8px;" src="<?php echo get_template_directory_uri(); ?>/images/iconpointer_production.png" alt="Production" />
+                              <img class="size-full wp-image-255 alignnone" style="padding-top: 8px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/iconpointer_production.png" alt="Production" />
                               </a>
                             </div>
 
