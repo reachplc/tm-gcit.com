@@ -49,7 +49,7 @@ Template Name: Page
                             
                             <div class="icon-pointer">
                               <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/writer">
-                              <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo get_template_directory_uri(); ?>/images/iconpointer_writer.png" alt="Writer" />
+                              <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/iconpointer_writer.png" alt="Writer" />
                               </a>
                               <br /> 
                               <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/production">
