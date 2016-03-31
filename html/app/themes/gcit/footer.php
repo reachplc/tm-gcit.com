@@ -34,7 +34,7 @@
   <div class="row black-bk">
     <div class="copyright wrapper top">
       <div class="large-3 columns no-pad m-tb"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/trinity-logo-grey.png' ); ?>" /></div>
-      <div class="copyright large-9 columns text-right no-pad m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php echo date( 'Y' ) ?> | Website by Trinity Mirror Creative</span>
+      <div class="copyright large-9 columns text-right no-pad m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php the_date( 'Y' ) ?> | Website by Trinity Mirror Creative</span>
       </div>
     </div>
   </div>

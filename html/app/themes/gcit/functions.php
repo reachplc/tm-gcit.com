@@ -80,7 +80,7 @@ function twentythirteen_setup() {
      * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
-		'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video'
+		'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video',
 	) );
 
 	// This theme uses wp_nav_menu() in one location.
@@ -188,7 +188,13 @@ function twentythirteen_scripts_styles() {
 
 	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array( 'jquery' ), '2016-03-31', true );
 
-	wp_enqueue_script( 'googleapis', get_template_directory_uri() . 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', array( 'jquery' ), '2016-03-31', true );		
+	wp_enqueue_script( 'fixed-header', get_template_directory_uri() . 'js/fixed-header.js', array( 'jquery' ), '2016-03-31', true );
+
+	wp_enqueue_script( 'respond', get_template_directory_uri() . '/js/lib/respond.min.js', array( 'jquery' ), '2016-03-31', true );
+
+	wp_enqueue_script( 'printshiv', get_template_directory_uri() . '/js/lib/html5shiv-printshiv.js', array( 'jquery' ), '2016-03-31', true );
+
+	wp_enqueue_script( 'googleapis', get_template_directory_uri() . 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', array( 'jquery' ), '2016-03-31', true );	
 
 	wp_enqueue_script( 'careers-search', get_template_directory_uri() . '/js/search.js', array( 'jquery' ), '2014-06-24', true );
 
@@ -216,9 +222,9 @@ add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
 
 function careers_scripts_videos() {
 	global $page;
-	if ( 'useful-guides' == $page ) { 
+	if ( 'useful-guides' == $page ) {
 
-	wp_enqueue_script( 'videos-fitvid', get_template_directory_uri() . '/js/lib/jquery.fitvids.js', array('jquery'), '20140218', true );
+	wp_enqueue_script( 'videos-fitvid', get_template_directory_uri() . '/js/lib/jquery.fitvids.js', array( 'jquery' ), '20140218', true );
 
 	}
 }
@@ -509,12 +515,12 @@ function twentythirteen_the_attached_image() {
 	$attachment_ids = get_posts( array(
 		'post_parent'    => $post->post_parent,
 		'fields'         => 'ids',
-		'numberposts'    => -1,
+		'numberposts'    => 0,
 		'post_status'    => 'inherit',
 		'post_type'      => 'attachment',
 		'post_mime_type' => 'image',
 		'order'          => 'ASC',
-		'orderby'        => 'menu_order ID'
+		'orderby'        => 'menu_order ID',
 	) );
 
 	// If there is more than 1 attachment in a gallery...
