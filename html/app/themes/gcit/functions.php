@@ -33,13 +33,15 @@ if ( ! isset( $content_width ) ) {
 /**
  * Add support for a custom header image.
  */
-require get_template_directory() . '/inc/custom-header.php';
+/**require get_template_directory() . '/inc/custom-header.php';
+*/
 
 /**
  * Twenty Thirteen only works in WordPress 3.6 or later.
  */
-if ( version_compare( $GLOBALS['wp_version'], '3.6-alpha', '<' ) ) {
+/** if ( version_compare( $GLOBALS['wp_version'], '3.6-alpha', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php'; }
+	*/
 
 /**
  * Twenty Thirteen setup.
@@ -215,7 +217,7 @@ add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
 
 function careers_scripts_videos() {
 	global $page;
-	if ( $page == 'useful-guides' ) {
+	if ( 'useful-guides' == $page ) { 
 
 	wp_enqueue_script( 'videos-fitvid', get_template_directory_uri() . '/js/lib/jquery.fitvids.js', array('jquery'), '20140218', true );
 

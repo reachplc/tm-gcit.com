@@ -76,7 +76,7 @@ into work areas and individual functions.</p>
  <div class="home-how" >
     <div class="large-6 left">
         <div class="how-cell-dark-left">
-          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/iconx2.png' ); ?>" alt="How this site can help you - icons" />
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/iconsx2.png' ); ?>" alt="How this site can help you - icons" />
           
         </div>
     </div>

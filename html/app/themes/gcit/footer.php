@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
 </script>
 
 <script> 
-<?php if ( $page == 'useful-guides' ) {?>
+<?php if ( 'useful-guides' == $page ) {?>
 ;(function( $ ){
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.

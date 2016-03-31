@@ -22,9 +22,9 @@
   <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/speeddial-160x160.png' ); ?>">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
-  <script src="<?php get_template_directory_uri(); ?>/js/html5.js"></script>
+  <script src="<?php echo esc_url( get_template_directory_uri() . '/js/html5.js' ); ?>"></script>
   <![endif]-->
-<link href="<?php echo get_template_directory_uri(); ?>/gcitstyle.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo esc_url( get_template_directory_uri() . '/gcitstyle.css' ); ?>" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -35,7 +35,7 @@
   <div id="home-back">
 
         <div class="wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/gcit_logo.png" alt="GCIT" width="400" class="headerlogo">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gcit_logo.png' ); ?>" alt="GCIT" width="400" class="headerlogo">
         <p><a href="#what">WHAT. </a><a href="#why">WHY. </a><a href="#who">WHO. </a></p>
       </div>
 </div>
@@ -89,9 +89,7 @@ the systems.  </span>
     </a>
     <br />
     <br />
-          <!-- <a href="<?php echo get_template(); ?>/contentwatch" class="sitelinks">ContentWatch</a><span class="whattextp"> - complete guide with step by step help. </span>
 
-          <br /><br /> -->
 
           <a href="https://sites.google.com/a/trinitymirror.com/chp-knowledgebase/">
     <img src="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/chp2.png' ); ?>" alt="CHP"  class="whoicon_img_sml"/>
@@ -101,8 +99,6 @@ the systems.  </span>
     </a>
     <br />
 
-          <!-- <a href="<?php echo get_template(); ?>/contentwatch" class="sitelinks">CHP </a><span class="whattextp">(Content Hub for Publishers) - help website. </span>
-          </a> -->
 
         </div>
      </div>
