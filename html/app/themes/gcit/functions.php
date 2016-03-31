@@ -30,18 +30,7 @@
 if ( ! isset( $content_width ) ) {
 	$content_width = 604; }
 
-/**
- * Add support for a custom header image.
- */
-/**require get_template_directory() . '/inc/custom-header.php';
-*/
 
-/**
- * Twenty Thirteen only works in WordPress 3.6 or later.
- */
-/** if ( version_compare( $GLOBALS['wp_version'], '3.6-alpha', '<' ) ) {
-	require get_template_directory() . '/inc/back-compat.php'; }
-	*/
 
 /**
  * Twenty Thirteen setup.
@@ -195,6 +184,12 @@ function twentythirteen_scripts_styles() {
 	// Loads JavaScript file with functionality specific to Twenty Thirteen.
 	wp_enqueue_script( 'twentythirteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '2013-07-18', true );
 
+	wp_enqueue_script( 'html5', get_template_directory_uri() . '/js/html5.js', array( 'jquery' ), '2016-03-31', true );
+
+	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array( 'jquery' ), '2016-03-31', true );
+
+	wp_enqueue_script( 'googleapis', get_template_directory_uri() . 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', array( 'jquery' ), '2016-03-31', true );		
+
 	wp_enqueue_script( 'careers-search', get_template_directory_uri() . '/js/search.js', array( 'jquery' ), '2014-06-24', true );
 
 	wp_enqueue_script( 'careers-hero', get_template_directory_uri() . '/js/jquery.randomHero.js', array() );
@@ -211,6 +206,10 @@ function twentythirteen_scripts_styles() {
 	// Loads the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'twentythirteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentythirteen-style' ), '2013-07-18' );
 	wp_style_add_data( 'twentythirteen-ie', 'conditional', 'lt IE 9' );
+
+	// Loads other stylesheets.
+	wp_enqueue_style( 'gcitstyle', get_template_directory_uri() . '/gcitstyle.css', array( 'gcit-style' ), '2016-03-31' );
+	wp_enqueue_style( 'mainstyle', get_template_directory_uri() . '/style.css', array( 'main-style' ), '2016-03-31' );
 }
 add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
 
