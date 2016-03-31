@@ -44,8 +44,6 @@ Template Name: Page - Writer
           </div>
 
 
-
-
           <div class="entry-content">
 
                   <div class="large-5 left" style="display: flex; background-color: #333;">
@@ -53,11 +51,11 @@ Template Name: Page - Writer
                             
                             <div class="icon-pointer">
                               <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/writer' ) ); ?>">
-                              <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo get_template_directory_uri(); ?>/images/iconpointer_right_writer.png" alt="Writer" width="222" height="142" />
+                              <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_right_writer.png' ); ?>" alt="Writer" width="222" height="142" />
                               </a>
                               <br /> 
                               <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/production' ) ); ?>">
-                              <img class="icon-pointer-img" src="<?php echo get_template_directory_uri(); ?>/images/iconpointer_production.png" alt="Production" />
+                              <img class="icon-pointer-img" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_production.png' ); ?>" alt="Production" />
                               </a>
                             </div>
 

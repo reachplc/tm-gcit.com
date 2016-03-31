@@ -12,20 +12,19 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
   <title>GCIT - Trinity Mirror</title>
-  <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon">
-  <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icons/152x152-precomposed.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icons/120x120-precomposed.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icons/76x76-precomposed.png">
-  <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icons/60x60-precomposed.png">
-  <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icons/speeddial-160x160.png">
+  <link rel="icon" href="<?php echo esc_url( get_template_directory_uri() . '/favicon.ico' ); ?>" type="image/x-icon">
+  <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() . '/favicon.ico' ); ?>" type="image/x-icon">
+  <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/favicon.png' ); ?>">
+  <link rel="apple-touch-icon" sizes="152x152" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/152x152-precomposed.png' ); ?>">
+  <link rel="apple-touch-icon" sizes="114x114" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/114x114-precomposed.png' ); ?>">
+  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/72x72-precomposed.png' ); ?>">
+  <link rel="apple-touch-icon" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/60x60-precomposed.png' ); ?>">
+  <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/speeddial-160x160.png' ); ?>">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
   <script src="<?php get_template_directory_uri(); ?>/js/html5.js"></script>
   <![endif]-->
 <link href="<?php echo get_template_directory_uri(); ?>/gcitstyle.css" rel="stylesheet" type="text/css" />
-
 
 </head>
 
@@ -36,7 +35,7 @@
   <div id="home-back">
 
         <div class="wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/GCIT_logo.png" alt="GCIT" width="400" class="headerlogo">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/gcit_logo.png" alt="GCIT" width="400" class="headerlogo">
         <p><a href="#what">WHAT. </a><a href="#why">WHY. </a><a href="#who">WHO. </a></p>
       </div>
 </div>
@@ -46,8 +45,8 @@
     <div class="large-6 left">
     <a name="what"></a>
         <div class="how-cell-dark-left">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/whatwedo.png" alt="What we do" class="icon_img">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/whatwedo_icon2.png" alt="What we do" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/whatwedo.png' ); ?>" alt="What we do" class="icon_img">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/whatwedo_icon2.png' ); ?>" alt="What we do" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -69,9 +68,9 @@
   <div class="large-6 left">
     <a name="what"></a>
         <div class="how-cell-dark-left">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/gotaproblem.png" alt="Got a problem?"  class="icon_img"/>
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gotaproblem.png' ); ?>" alt="Got a problem?"  class="icon_img"/>
 
-         <img src="<?php echo get_template_directory_uri(); ?>/images/probicon.png" alt="Got a problem" class="whoicon_img_sml">
+         <img src="<?php echo esc_url( get_template_directory_uri() . '/images/probicon.png' ); ?>" alt="Got a problem" class="whoicon_img_sml">
 
     </div>
     </div>
@@ -85,8 +84,8 @@ the ins and outs of ContentWatch and CHP.
 the systems.  </span>
           <br /><br />
              <a href="<?php echo esc_url( home_url( '/contentwatch/' ) ); ?>">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/contentwatch2.png" alt="ContentWatch"  class="whoicon_img_sml"/>
-    <img src="<?php echo get_template_directory_uri(); ?>/images/cwlogo.png" alt="ContentWatch"  class="logo_img_sml"/>
+    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/contentwatch2.png' ); ?>" alt="ContentWatch"  class="whoicon_img_sml"/>
+    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/cwlogo.png' ); ?>" alt="ContentWatch"  class="logo_img_sml"/>
     </a>
     <br />
     <br />
@@ -95,10 +94,10 @@ the systems.  </span>
           <br /><br /> -->
 
           <a href="https://sites.google.com/a/trinitymirror.com/chp-knowledgebase/">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/chp2.png" alt="CHP"  class="whoicon_img_sml"/>
+    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/chp2.png' ); ?>" alt="CHP"  class="whoicon_img_sml"/>
     </a>
     <a href="https://sites.google.com/a/trinitymirror.com/chp-knowledgebase/">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/chplogo.png" alt="CHP"  class="logo_img_sml"/>
+    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/chplogo.png' ); ?>" alt="CHP"  class="logo_img_sml"/>
     </a>
     <br />
 
@@ -113,8 +112,8 @@ the systems.  </span>
     <div class="large-6 left">
         <a name="why"></a>
         <div class="how-cell-cyan-left">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/whywerehere.png" alt="Why we're here" class="icon_img">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/whywerehere_icon2.png" alt="Why we're here" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/whywerehere.png' ); ?>" alt="Why we're here" class="icon_img">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/whywerehere_icon2.png' ); ?>" alt="Why we're here" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -140,8 +139,8 @@ the systems.  </span>
   <div class="large-6 left">
         <a name="who"></a>
         <div class="who-cell-dark-left">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/whoweare.png" alt="What we do" class="icon_img">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/raydunn.png" alt="Ray Dunn" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/whoweare.png' ); ?>" alt="What we do" class="icon_img">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/raydunn.png' ); ?>" alt="Ray Dunn" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -174,7 +173,7 @@ the systems.  </span>
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/stevemurphy.png" alt="Steve Murphy" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/stevemurphy.png' ); ?>" alt="Steve Murphy" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -206,7 +205,7 @@ the systems.  </span>
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/bryanmccomb.png" alt="BRYAN McCOMB" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/brianmccomb.png' ); ?>" alt="BRYAN McCOMB" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -241,7 +240,7 @@ the systems.  </span>
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/jasondoyle.png" alt="JASON DOYLE" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/jasondoyle.png' ); ?>" alt="JASON DOYLE" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -274,7 +273,7 @@ the systems.  </span>
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/gaetancotton.png" alt="Gaeten Cotton" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gaetencotton.png' ); ?>" alt="Gaeten Cotton" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -308,7 +307,7 @@ the systems.  </span>
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/nickmaude.png" alt="Nick Maude" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/nickmaude.png' ); ?>" alt="Nick Maude" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -345,7 +344,7 @@ Joined GCIT in October 2013 with a brief encompassing training, support and docu
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/marcfletcher.png" alt="Marc Fletcher" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/marcfletcher.png' ); ?>" alt="Marc Fletcher" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -378,7 +377,7 @@ Joined GCIT in October 2013 with a brief encompassing training, support and docu
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo get_template_directory_uri(); ?>/images/benhughes.png" alt="Ben Hughes" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/benhughes.png' ); ?>" alt="Ben Hughes" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -413,7 +412,7 @@ In January 2015 Ben became a full time member of the GCIT team.
 
 
   <div class="black-bk">
-      <div class="large-3 columns"><img src="<?php echo get_template_directory_uri(); ?>/images/gcit_logo.png" class="footer"/>
+      <div class="large-3 columns"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/gcit_logo.png' ); ?>" class="footer"/>
       </div>
       <div class="copyright large-9 columns text-right m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php echo date( 'Y' ) ?> | Website by Trinity Mirror Creative</span>
       </div>

@@ -19,7 +19,7 @@ Template Name: ContentWatch Home
           </div>
      <div class="large-3 blackstrip_right">  
         <a href="<?php get_template(); ?>" target="_blank">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/GCIT_logo.png" width="200" alt="GCIT" margin="16px 10px 16px 20px" align="right" valign="center">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/GCIT_logo.png' ); ?>" width="200" alt="GCIT" margin="16px 10px 16px 20px" align="right" valign="center">
         </a>     
      </div>
     </div>
@@ -42,7 +42,7 @@ Using the Firefox browser you can access this database and through "plugins" use
           <p>Market-leading publishing application which works in close conjunction with ContentWatch.</p>
         </div>
         <div class="app-table">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/app_logos.png" alt="ContentWatch's apps" />
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/app_logos.png' ); ?>" alt="ContentWatch's apps" />
         </div>
         <div class="app-table-cell-copy left">
           <h3>Photoshop</h3>
@@ -76,7 +76,7 @@ into work areas and individual functions.</p>
  <div class="home-how" >
     <div class="large-6 left">
         <div class="how-cell-dark-left">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/iconsx2.png" alt="How this site can help you - icons" />
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/iconx2.png' ); ?>" alt="How this site can help you - icons" />
           
         </div>
     </div>
