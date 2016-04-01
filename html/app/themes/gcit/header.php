@@ -32,7 +32,6 @@
   <link rel="apple-touch-icon" sizes="72x72" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/72x72-precomposed.png' ); ?>">
   <link rel="apple-touch-icon" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/60x60-precomposed.png' ); ?>">
   <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/speeddial-160x160.png' ); ?>">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
  
   <?php wp_head(); ?>
 
