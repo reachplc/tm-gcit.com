@@ -188,13 +188,13 @@ function twentythirteen_scripts_styles() {
 
 	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array( 'jquery' ), '2016-03-31', true );
 
-	wp_enqueue_script( 'fixed-header', get_template_directory_uri() . 'js/fixed-header.js', array( 'jquery' ), '2016-03-31', true );
+	wp_enqueue_script( 'fixed-header', get_template_directory_uri() . '/js/fixed-header.js', array( 'jquery' ), '2016-03-31', true );
 
 	wp_enqueue_script( 'respond', get_template_directory_uri() . '/js/lib/respond.min.js', array( 'jquery' ), '2016-03-31', true );
 
 	wp_enqueue_script( 'printshiv', get_template_directory_uri() . '/js/lib/html5shiv-printshiv.js', array( 'jquery' ), '2016-03-31', true );
 
-	wp_enqueue_script( 'googleapis', get_template_directory_uri() . 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', array( 'jquery' ), '2016-03-31', true );	
+	wp_enqueue_script( 'googleapis', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', array(), '2016-03-31', true );
 
 	wp_enqueue_script( 'careers-search', get_template_directory_uri() . '/js/search.js', array( 'jquery' ), '2014-06-24', true );
 
@@ -207,15 +207,15 @@ function twentythirteen_scripts_styles() {
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/fonts/genericons.css', array(), '2.09' );
 
 	// Loads our main stylesheet.
-	wp_enqueue_style( 'twentythirteen-style', get_stylesheet_uri(), array(), '2013-07-18' );
+	wp_enqueue_style( 'twentythirteen-style', get_stylesheet_uri(), array( 'gcitstyle' ), '2013-07-18' );
 
 	// Loads the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'twentythirteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentythirteen-style' ), '2013-07-18' );
 	wp_style_add_data( 'twentythirteen-ie', 'conditional', 'lt IE 9' );
 
 	// Loads other stylesheets.
-	wp_enqueue_style( 'gcitstyle', get_template_directory_uri() . '/gcitstyle.css', array( 'gcit-style' ), '2016-03-31' );
-	wp_enqueue_style( 'mainstyle', get_template_directory_uri() . '/style.css', array( 'main-style' ), '2016-03-31' );
+	wp_enqueue_style( 'gcitstyle', get_template_directory_uri() . '/gcitstyle.css', array(), '2016-03-31' );
+
 }
 add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
 

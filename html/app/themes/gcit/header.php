@@ -33,14 +33,9 @@
   <link rel="apple-touch-icon" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/60x60-precomposed.png' ); ?>">
   <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/speeddial-160x160.png' ); ?>">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-  <!--[if lt IE 9]>
-  <script src="<?php echo esc_url( get_template_directory_uri() . '/js/html5.js' ); ?>"></script>
-  <![endif]-->
+ 
   <?php wp_head(); ?>
-     <script src="<?php echo esc_url( get_template_directory_uri() . '/js/modernizr.js' ); ?>"></script>
 
-
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
 
 </head>

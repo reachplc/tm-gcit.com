@@ -91,6 +91,9 @@ jQuery(document).ready(function($) {
 
 </script>
 
+
+<?php wp_footer(); ?>
+
 <script> 
 <?php if ( 'useful-guides' == $page ) {?>
 ;(function( $ ){
@@ -101,8 +104,6 @@ jQuery(document).ready(function($) {
 })( jQuery );
 <?php } ?>
 </script>
-
-<?php wp_footer(); ?>
 
 
 </body></html>
