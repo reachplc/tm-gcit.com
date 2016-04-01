@@ -33,8 +33,8 @@
   </div>
   <div class="row black-bk">
     <div class="copyright wrapper top">
-      <div class="large-3 columns no-pad m-tb"><img src="<?php echo get_template_directory_uri(); ?>/images/trinity-logo-grey.png"/></div>
-      <div class="copyright large-9 columns text-right no-pad m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php echo date( 'Y' ) ?> | Website by Trinity Mirror Creative</span>
+      <div class="large-3 columns no-pad m-tb"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/trinity-logo-grey.png' ); ?>" /></div>
+      <div class="copyright large-9 columns text-right no-pad m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php the_date( 'Y' ) ?> | Website by Trinity Mirror Creative</span>
       </div>
     </div>
   </div>
@@ -67,8 +67,6 @@ $(document).ready(function(){
 
 </script>
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/fixed-header.js"></script>
-
 
 <script>  
 
@@ -91,8 +89,11 @@ jQuery(document).ready(function($) {
 
 </script>
 
+
+<?php wp_footer(); ?>
+
 <script> 
-<?php if ( $page == 'useful-guides' ) {?>
+<?php if ( 'useful-guides' == $page ) {?>
 ;(function( $ ){
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
@@ -101,8 +102,6 @@ jQuery(document).ready(function($) {
 })( jQuery );
 <?php } ?>
 </script>
-
-<?php wp_footer(); ?>
 
 
 </body></html>

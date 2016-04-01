@@ -992,7 +992,7 @@ span{ margin:0; padding: 0}
 
   .large-5 {
     position: relative;
-    width: 41.66667%; }
+    width: 41.66667%;}
 
 
     .large-5menuleft {
@@ -6137,7 +6137,7 @@ iframe video {
 
   .entry-content h2 {color:#000;}
 
-  .entry-title, .archive-title {color:#fff; padding:10px 0 15px 0;}
+  .entry-title, .archive-title {color:#fff; padding:10px 0 15px 0; text-align:left;}
 
   .page-content{padding-top:20px;}
 
@@ -6911,4 +6911,14 @@ height: auto !important;
 height: 100%;
 margin: 0 auto ;
   
+}
+
+.body-content {
+  padding: 30px;
+  text-align: left;
+}
+
+.content-fillvid {
+padding: 20px 100px 20px 100px;
+text-align: center;
 }
