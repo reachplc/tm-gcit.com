@@ -21,9 +21,7 @@
   <link rel="apple-touch-icon" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/60x60-precomposed.png' ); ?>">
   <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/speeddial-160x160.png' ); ?>">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-  <!--[if lt IE 9]>
-  <script src="<?php echo esc_url( get_template_directory_uri() . '/js/html5.js' ); ?>"></script>
-  <![endif]-->
+ 
 <link href="<?php echo esc_url( get_template_directory_uri() . '/gcitstyle.css' ); ?>" rel="stylesheet" type="text/css" />
 
 </head>
@@ -201,7 +199,7 @@ the systems.  </span>
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/brianmccomb.png' ); ?>" alt="BRYAN McCOMB" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/bryanmccomb.png' ); ?>" alt="BRYAN McCOMB" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
@@ -269,7 +267,7 @@ the systems.  </span>
   <div class="large-6 left">
         <div class="who-cell-dark-left">
 
-          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gaetencotton.png' ); ?>" alt="Gaeten Cotton" class="whoicon_img_sml">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gaetancotton.png' ); ?>" alt="Gaeten Cotton" class="whoicon_img_sml">
         </div>
     </div>
     <div class="large-6 right">
