@@ -88,7 +88,8 @@ into work areas and individual functions.</p>
         </div>
         <div class="how-cell-dark-right3">
           <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/production' ) ); ?>"><h1>Production:</h1></a>
-          <h2>This section is relevant to all staff who are responsible for making decisions on Filed stories and managing the print workflow.</h2>
+          <h2>This section is relevant to Story Editors, Layout Artists, Subs and all staff 
+responsible for the print workflow.</h2>
 
         </div>
     </div>

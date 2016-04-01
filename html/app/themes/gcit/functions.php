@@ -633,12 +633,7 @@ add_action( 'customize_register', 'twentythirteen_customize_register' );
  * Explorer and provides basic HTML5 styling for Internet Explorer 6-9
  */
 
-// add ie conditional html5 shim to header
-function add_ie_html5_shim () {
-	echo '<!--[if lt IE 9]>';
-	echo '<script src="'. get_stylesheet_directory_uri() .'/js/lib/html5shiv-printshiv.js"></script>';
-	echo '<![endif]-->';
-}
+
 add_action( 'wp_head', 'add_ie_html5_shim' );
 
 /**
@@ -647,11 +642,6 @@ add_action( 'wp_head', 'add_ie_html5_shim' );
  * (for IE 6-8, and more).
  */
 
-function add_ie_respond () {
-	echo '<!--[if lt IE 9]>';
-	echo '<script src="'. get_stylesheet_directory_uri() .'/js/lib/respond.min.js"></script>';
-	echo '<![endif]-->';
-}
 add_action( 'wp_head', 'add_ie_respond' );
 
 /**
