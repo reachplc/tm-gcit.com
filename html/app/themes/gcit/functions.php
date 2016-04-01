@@ -627,22 +627,7 @@ function twentythirteen_customize_register( $wp_customize ) {
 }
 add_action( 'customize_register', 'twentythirteen_customize_register' );
 
-/**
- * HTML5 Shiv
- * Enables use of HTML5 sectioning elements in legacy Internet
- * Explorer and provides basic HTML5 styling for Internet Explorer 6-9
- */
 
-
-add_action( 'wp_head', 'add_ie_html5_shim' );
-
-/**
- * Respond
- * A fast & lightweight polyfill for min/max-width CSS3 Media Queries
- * (for IE 6-8, and more).
- */
-
-add_action( 'wp_head', 'add_ie_respond' );
 
 /**
  * Enqueue Javascript postMessage handlers for the Customizer.
