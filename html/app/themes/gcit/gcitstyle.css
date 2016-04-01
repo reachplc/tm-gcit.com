@@ -6917,3 +6917,8 @@ margin: 0 auto ;
   padding: 30px;
   text-align: left;
 }
+
+.content-fill {
+padding: 20px 100px 20px 100px;
+text-align: center;
+}

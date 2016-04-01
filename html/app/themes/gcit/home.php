@@ -90,7 +90,7 @@ the systems.  </span>
 
 
           <a href="https://sites.google.com/a/trinitymirror.com/chp-knowledgebase/">
-    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/chp2.png' ); ?>" alt="CHP"  class="whoicon_img_sml"/>
+    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/chp2.png' ); ?>" alt="CHP"  class="whoicon_img_sml"/>
     </a>
     <a href="https://sites.google.com/a/trinitymirror.com/chp-knowledgebase/">
     <img src="<?php echo esc_url( get_template_directory_uri() . '/images/chplogo.png' ); ?>" alt="CHP"  class="logo_img_sml"/>
