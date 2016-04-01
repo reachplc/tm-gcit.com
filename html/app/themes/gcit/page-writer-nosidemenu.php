@@ -47,7 +47,7 @@ Template Name: Page - No Side Menu
           <div class="entry-content">
 
                   
-                                  <div class="content-fill">
+                                  <div class="content-fillvid">
 
                                           <?php the_content(); ?>
 
