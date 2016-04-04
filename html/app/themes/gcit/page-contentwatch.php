@@ -7,8 +7,8 @@ Template Name: ContentWatch Home
 
 <div class="row z-fix" >
     <div class="large-12 columns">
-      
-    </div> 
+
+    </div>
 </div>
 </div>
 <!-- end of home-back -->
@@ -16,10 +16,10 @@ Template Name: ContentWatch Home
     <div class="large-9 blackstrip_left">
         <p class="blackstrip_text_cyan">Transforming Newsrooms <font color="#ffffff">Throughout Trinity Mirror</font></p>
           </div>
-     <div class="large-3 blackstrip_right">  
+     <div class="large-3 blackstrip_right">
         <a href="<?php get_template(); ?>" target="_blank">
         <img src="<?php echo esc_url( get_template_directory_uri() . '/images/GCIT_logo.png' ); ?>" width="200" alt="GCIT" margin="16px 10px 16px 20px" align="right" valign="center">
-        </a>     
+        </a>
      </div>
     </div>
 </div>
@@ -51,7 +51,7 @@ Using the Firefox browser you can access this database and through "plugins" use
           <h3>Illustrator</h3>
           <p>World class graphics editor used to create illustrations, logos, mastheads and graphics across all media.</p>
         </div>
-        
+
     </div>
     </div>
 </div>
@@ -60,13 +60,13 @@ Using the Firefox browser you can access this database and through "plugins" use
     <div class="large-6 left">
         <div class="how-cell-dark-left">
           <p>How can this site help me?</p>
-          
+
         </div>
     </div>
     <div class="large-6 right">
         <div class="how-cell-dark-right">
-          <p>This site has been designed to be as specific as it can to the 
-working practices of your publication and we have split the site 
+          <p>This site has been designed to be as specific as it can to the
+working practices of your publication and we have split the site
 into work areas and individual functions.</p>
 
         </div>
@@ -76,31 +76,42 @@ into work areas and individual functions.</p>
     <div class="large-6 left">
         <div class="how-cell-dark-left">
           <img src="<?php echo esc_url( get_template_directory_uri() . '/images/iconsx2.png' ); ?>" alt="How this site can help you - icons" />
-          
+
         </div>
     </div>
     <div class="large-6 right">
         <div class="how-cell-dark-right1">
-        <h1>Writer:</h1>
+					<a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/writer"><h1>Writer:</h1></a>
           <h2>This section is relevant to all staff who are responsible for creating stories, hence the overarching term Writer.</h2>
 
         </div>
         <div class="how-cell-dark-right3">
-          <h1>Production:</h1>
-          <h2>This section is relevant to Story Editors, Layout Artists, Subs and all staff 
-responsible for the print workflow.</h2>
+					<a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/production"><h1>Production:</h1></a>
+          <h2>This section is relevant to all staff who are responsible for making decisions on Filed stories and managing the print workflow.</h2>
 
         </div>
     </div>
+    <div class="large-6 left">
+        <div class="how-cell-dark-left" style="padding-top: 20px;">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/videosiconpic.png' ); ?>" alt="Video - icon" />
+
+        </div>
+    </div>
+    <div class="large-6 right">
+        <div class="how-cell-dark-right1">
+        <h1>Videos:</h1>
+        <a href="<?php echo esc_url( home_url( '/contentwatch/videos' ) ); ?>">Click here to be taken to our videos page</a>
+        </div>
+    </div>
 </div>
- 
+
 <!-- <div class="home-whatis" >
     <div class="large-12 whatis">
         <h1>Watch the Introduction Video:</h1>
         <div class="video">
             <iframe width="800" height="450" src="https://www.youtube.com/embed/KBlak8ugKpU" frameborder="0" allowfullscreen></iframe>
         </div>
-    
+
     </div>
 </div> -->
 
