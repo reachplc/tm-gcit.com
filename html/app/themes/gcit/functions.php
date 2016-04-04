@@ -22,15 +22,16 @@
  * @subpackage Careers-Development
  */
 
+// @codingStandardsIgnoreStart
 /*
  * Set up the content width value based on the theme's design.
  *
  * @see twentythirteen_content_width() for template-specific adjustments.
  */
 if ( ! isset( $content_width ) ) {
-	$content_width = 604; }
-
-
+	$content_width = 604;
+}
+// @codingStandardsIgnoreEnd
 
 /**
  * Twenty Thirteen setup.
