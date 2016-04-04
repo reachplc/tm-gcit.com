@@ -11,8 +11,8 @@
 ?>
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="row cyan-dark">
-    <div class="wrapper">
-      <br />
+    <div class="wrapper-footer">
+      <br clear=all />
       <!-- <div class="large-3 columns no-pad m-tb">
         <?php if ( ! function_exists( 'dynamic_sidebar' ) ||
 ! dynamic_sidebar( 'foot-col-1' ) ) : ?>

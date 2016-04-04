@@ -488,7 +488,7 @@ if ( ! function_exists( 'twentythirteen_entry_date' ) ) :
 		return esc_html( $date );
 	}
 endif;
-
+// @codingStandardsIgnoreStart
 if ( ! function_exists( 'twentythirteen_the_attached_image' ) ) :
 	/**
 	 * Print the attached image with a link to the next attached image.
@@ -553,7 +553,7 @@ if ( ! function_exists( 'twentythirteen_the_attached_image' ) ) :
 		);
 	}
 endif;
-
+// @codingStandardsIgnoreStart
 /**
  * Return the post URL.
  *
