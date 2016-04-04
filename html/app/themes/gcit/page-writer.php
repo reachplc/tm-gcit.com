@@ -91,16 +91,6 @@ Template Name: Page - Writer
           </div><!-- .entry-content -->
 
 
-
-
-
-          <footer class="entry-meta">
-          <br clear=all>
-            <?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
-          </footer><!-- .entry-meta -->
-        </article><!-- #post -->
-
-        <?php comments_template(); ?>
       <?php endwhile; ?>
   </main><!-- #primary -->
 

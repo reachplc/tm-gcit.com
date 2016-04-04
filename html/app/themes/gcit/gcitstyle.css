@@ -991,8 +991,7 @@ span{ margin:0; padding: 0}
     width: 33.33333%; }
 
   .large-5 {
-    position: relative;
-    width: 41.66667%;}
+    width: 720px;}
 
 
     .large-5menuleft {
@@ -1005,8 +1004,7 @@ position: relative;
     width: 50%; }
 
   .large-7 {
-    position: relative;
-    width: 58.33333%; }
+    width: 700px; }
 
   .large-8 {
     position: relative;
@@ -6796,10 +6794,9 @@ padding-bottom: 10px;
 
 .icon-pointer-menu
 { float: left;
-  width: 260px;
 padding-top: 2px;
 padding-left: 20px;
-padding-right;: 10px;
+padding-right;: 5px;
 padding-bottom: 1px; 
 color: #1ed2a3;
 font-size: 18pt;
