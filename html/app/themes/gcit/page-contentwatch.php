@@ -83,15 +83,25 @@ into work areas and individual functions.</p>
     <div class="large-6 right">
         <div class="how-cell-dark-right1">
           <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/writer"><h1>Writer:</h1></a>
-          <h2>This section is relevant to MMJs, Reporters, Specialists, CCCs and all staff 
-responsible for creating stories, hence the over arching term Writer.</h2>
+          <h2>This section is relevant to all staff who are responsible for creating stories, hence the overarching term Writer.</h2>
 
         </div>
         <div class="how-cell-dark-right3">
           <a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/production"><h1>Production:</h1></a>
-          <h2>This section is relevant to Story Editors, Layout Artists, Subs and all staff 
-responsible for the print workflow.</h2>
+          <h2>This section is relevant to all staff who are responsible for making decisions on Filed stories and managing the print workflow.</h2>
 
+        </div>
+    </div>
+    <div class="large-6 left">
+        <div class="how-cell-dark-left" style="padding-top: 20px;">
+          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/videosiconpic.png' ); ?>" alt="Video - icon" />
+          
+        </div>
+    </div>
+    <div class="large-6 right">
+        <div class="how-cell-dark-right1">
+        <h1>Videos:</h1>
+        <a href="<?php echo esc_url( home_url( '/contentwatch/videos' ) ); ?>">Click here to be taken to our videos page</a>
         </div>
     </div>
 </div>
