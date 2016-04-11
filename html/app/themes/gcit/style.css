@@ -6140,7 +6140,7 @@ iframe video {
 
   .entry-title, .archive-title {color:#fff; padding:10px 0 15px -30%;}
 
-  .entry-search, .archive-title {color:#000; padding:10px 0 15px -30%;}
+  a.entry-search, .archive-title {color:#000; padding:10px 0 15px -30%; text-align: left;}
 
   .page-content{padding-top:20px;}
 
