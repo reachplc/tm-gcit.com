@@ -10,7 +10,7 @@
 get_header(); ?>
 <div class="row z-fix" >
     <div class="large-12 columns">
-     
+
     </div>
   </div>
 </div>
@@ -36,7 +36,7 @@ get_header(); ?>
 				<?php get_template_part( 'content', 'get_post_format()' ); ?>
 			<?php endwhile; ?>
 
-			
+
 
 			<?php twentythirteen_paging_nav(); ?>
 
