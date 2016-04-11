@@ -32,7 +32,7 @@
   <link rel="apple-touch-icon" sizes="72x72" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/72x72-precomposed.png' ); ?>">
   <link rel="apple-touch-icon" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/60x60-precomposed.png' ); ?>">
   <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/speeddial-160x160.png' ); ?>">
-
+ 
   <?php wp_head(); ?>
 
 
@@ -49,7 +49,7 @@
         <div class="row" style="position:relative">
           <div class="search-icon"></div>
           <div class="search-bar">
-    <form id="searchform" action="<?php echo esc_url( home_url( '/contentwatch/' ) ); ?>" method="get">
+    <form id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
       <div>
         <input id="s" class="text" type="text" name="s" placeholder="Search">
         <div class="submit-icon">
