@@ -20,7 +20,7 @@ Template Name: Page-National
   <?php get_header(); ?>
   <div class="row z-fix" >
     <div class="large-12 columns">
-
+     
     </div>
   </div>
 </div>
@@ -75,8 +75,6 @@ Template Name: Page-National
                                         </div>
                                    </div>
                           </div>
-
-
 
 
 

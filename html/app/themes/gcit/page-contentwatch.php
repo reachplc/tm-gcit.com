@@ -81,12 +81,12 @@ into work areas and individual functions.</p>
     </div>
     <div class="large-6 right">
         <div class="how-cell-dark-right1">
-					<a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/writer"><h1>Writer:</h1></a>
+					<h1>Writer:</h1>
           <h2>This section is relevant to all staff who are responsible for creating stories, hence the overarching term Writer.</h2>
 
         </div>
         <div class="how-cell-dark-right3">
-					<a href="<?php get_template(); ?>/gcit/contentwatch/regional-resources/production"><h1>Production:</h1></a>
+					<h1>Production:</h1>
           <h2>This section is relevant to all staff who are responsible for making decisions on Filed stories and managing the print workflow.</h2>
 
         </div>
