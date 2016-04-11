@@ -6138,7 +6138,9 @@ iframe video {
 
   .entry-content h2 {color:#000;}
 
-  .entry-title, .archive-title {color:#000; padding:10px 0 15px -30%;}
+  .entry-title, .archive-title {color:#fff; padding:10px 0 15px -30%;}
+
+  .entry-search, .archive-title {color:#000; padding:10px 0 15px -30%;}
 
   .page-content{padding-top:20px;}
 
@@ -6151,7 +6153,7 @@ iframe video {
 
   .screen-reader-text{font-size:13px;}
 
-  .search-text{font-size:13px; padding-bottom: 10px; float:left;}
+  .search-text{font-size:13px; padding-bottom: 10px; float:left; color: #000;}
 
   .search-icon{width:24px; height:24px; background: url(images/search-icon-2x.png); background-size:100%; position:absolute;cursor:pointer; z-index:1;}
 
@@ -6208,6 +6210,7 @@ iframe video {
 .search-display{
   top:85px;
   right: 15px;
+  color:#000;
 }
 
 .submit{
