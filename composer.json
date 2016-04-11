@@ -40,7 +40,6 @@
 		"wpackagist-plugin/column-shortcodes": "0.6.x",
 		"wpackagist-plugin/disable-wpautop": "1.1.x",
 		"wpackagist-plugin/duplicate-page-and-post": "1.1.x",
-		"wpackagist-plugin/lightbox": "1.6.x",
 		"wpackagist-plugin/tablepress": "1.7.x",
 		"wpackagist-plugin/tinymce-advanced": "4.2.x",
 		"wpackagist-plugin/wordpress-importer": "*"
