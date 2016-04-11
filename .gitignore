@@ -43,6 +43,7 @@ html/app/mu-plugins/*
 
 #### White-list Plugins
 !html/app/plugins/index.php
+!html/app/plugins/lightbox/
 !html/app/mu-plugins/index.php
 
 ### Themes
