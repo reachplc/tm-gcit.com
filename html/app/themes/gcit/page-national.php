@@ -20,13 +20,13 @@ Template Name: Page-National
   <?php get_header(); ?>
   <div class="row z-fix" >
     <div class="large-12 columns">
-     
+
     </div>
   </div>
 </div>
 
   <main id="primary" class="content-area">
-   
+
     <?php /* The loop */ ?>
       <?php while ( have_posts() ) : the_post(); ?>
 
@@ -46,18 +46,18 @@ Template Name: Page-National
 
                   <div class="large-5 left" style="display: flex; background-color: #333;">
                       <div class="innermenu">
-                            
+
                             <div class="icon-pointer">
-                              <a href="<?php get_template(); ?>/gcit/contentwatch/national-resources/writer">
-                              <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo get_template_directory_uri(); ?>/images/iconpointer_writer.png" alt="Writer" />
+                              <a href="<?php echo esc_url( home_url( '/contentwatch/national-resources/writer' ) ); ?>">
+                              <img class="icon-pointer-img" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_writer.png' ); ?>" alt="Writer" />
                               </a>
-                              <br /> 
-                              <a href="<?php get_template(); ?>/gcit/contentwatch/national-resources/production">
-                              <img class="size-full wp-image-255 alignnone" style="padding-top: 8px;" src="<?php echo get_template_directory_uri(); ?>/images/iconpointer_production.png" alt="Production" />
+                              <br />
+                              <a href="<?php echo esc_url( home_url( '/contentwatch/national-resources/writer' ) ); ?>">
+                              <img class="icon-pointer-img" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_production.png' ); ?>" alt="Production" />
                               </a>
                             </div>
 
-                            
+
                       </div>
                 </div>
 
@@ -81,8 +81,8 @@ Template Name: Page-National
 
 
 
-            
-  
+
+
           </div><!-- .entry-content -->
 
           <footer class="entry-meta">

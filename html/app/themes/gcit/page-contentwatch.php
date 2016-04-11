@@ -17,7 +17,7 @@ Template Name: ContentWatch Home
         <p class="blackstrip_text_cyan">Transforming Newsrooms <font color="#ffffff">Throughout Trinity Mirror</font></p>
           </div>
      <div class="large-3 blackstrip_right">
-        <a href="<?php get_template(); ?>" target="_blank">
+        <a href="http://www.tm-gcit.com" target="_blank">
         <img src="<?php echo esc_url( get_template_directory_uri() . '/images/GCIT_logo.png' ); ?>" width="200" alt="GCIT" margin="16px 10px 16px 20px" align="right" valign="center">
         </a>
      </div>
@@ -99,8 +99,8 @@ into work areas and individual functions.</p>
     </div>
     <div class="large-6 right">
         <div class="how-cell-dark-right1">
-        <h1>Videos:</h1>
-        <a href="<?php echo esc_url( home_url( '/contentwatch/videos' ) ); ?>">Click here to be taken to our videos page</a>
+        <h1>Video:</h1>
+        <h2><a href="<?php echo esc_url( home_url( '/contentwatch/videos' ) ); ?>">What's new in Adobe Creative Suite 5.5</a></h2>
         </div>
     </div>
 </div>

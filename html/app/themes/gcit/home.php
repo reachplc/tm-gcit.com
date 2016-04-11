@@ -250,6 +250,9 @@ the systems.  </span>
           <span class="whattextp_white">The last six years was as deputy manager. He joined GCIT in September 2012, specialising in production workflows, training and support.</span>
           <br /><br />
 
+           <span class="whattextp_white">The GCIT deputy team leader.</span>
+          <br /><br />
+
           <span class="whattextp_white">
           <a href="mailto:jason.doyle@trinitymirror.com">jason.doyle@trinitymirror.com</a>
           <br /><b>020 7293 2185
