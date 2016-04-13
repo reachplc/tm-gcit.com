@@ -5843,6 +5843,11 @@ iframe video {
   z-index:1;
    }
 
+/* Move the header bar down when logged into wp-admin */
+.admin-bar .head-main {
+	padding-top: 32px;
+}
+
    .head-main
    {
     padding-top:10px; position: fixed;
