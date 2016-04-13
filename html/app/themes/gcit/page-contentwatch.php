@@ -17,7 +17,7 @@ Template Name: ContentWatch Home
         <p class="blackstrip_text_cyan">Transforming Newsrooms <font color="#ffffff">Throughout Trinity Mirror</font></p>
           </div>
      <div class="large-3 blackstrip_right">
-        <a href="http://www.tm-gcit.com" target="_blank">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" target="_blank">
         <img src="<?php echo esc_url( get_template_directory_uri() . '/images/GCIT_logo.png' ); ?>" width="200" alt="GCIT" margin="16px 10px 16px 20px" align="right" valign="center">
         </a>
      </div>
