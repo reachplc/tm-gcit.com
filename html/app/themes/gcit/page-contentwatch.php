@@ -100,7 +100,7 @@ into work areas and individual functions.</p>
     <div class="large-6 right">
         <div class="how-cell-dark-right1">
         <h1>Video:</h1>
-        <h2><a href="<?php echo esc_url( home_url( '/contentwatch/videos' ) ); ?>">What's new in Adobe Creative Suite 5.5</a></h2>
+        <h2><a href="<?php echo esc_url( home_url( '/contentwatch/video/' ) ); ?>">What&rsquo;s new in Adobe Creative Suite 5.5</a></h2>
         </div>
     </div>
 </div>
