@@ -120,50 +120,52 @@
 <!-- WHO WE ARE -->
 <!-- RAY DUNN -->
 <section class="home-what-blk-who" >
-  <div class="wrapper">
-     <div class="row">
-      <div class="large-5 left">
-        <a name="who"></a>
-        <div class="who-cell-dark-left">
-          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/whoweare.png' ); ?>" alt="What we do" class="icon_img">
-          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/raydunn.png' ); ?>" alt="Ray Dunn" class="whoicon_img_sml">
+ <div class="wrapper">
+    <div class="row">
+        <div class="large-5 left">
+            <a name="who"></a>
+            <div class="who-cell-dark-left">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/images/whoweare.png' ); ?>" alt="What we do" class="icon_img">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/images/raydunn.png' ); ?>" alt="Ray Dunn" class="whoicon_img_sml">
+            </div>
+        </div>
+        <div class="large-7 right">
+            <div class="who-cell-dark-right">
+                <p class="whattexth1_blk">RAY DUNN</p>
+                <p class="whattextp_white">Was Regional Production Editor in the Midlands, overseeing the Birmingham Mail, Birmingham Post, Coventry Telegraph, Sunday Mercury and the region's weekly titles.</p>
+                <p class="whattextp_white">He worked for the Post &amp; Mail 34 years from down-table sub to a stint as deputy editor of the Birmingham Mail before leading the Midlands ContentWatch roll-out in 2008.</p>
+                <p class="whattextp_white"> The GCIT team leader.</br>
+                    <a href="mailto:ray.dunn@trinitymirror.com">ray.dunn@trinitymirror.com</a>
+                    </br>
+                    <b>07884 191744</b>
+                </p>
+            </div>
         </div>
     </div>
-    <div class="large-7 right">
-        <div class="who-cell-dark-right">
-          <p class="whattexth1_blk">RAY DUNN</p>
-          <p class="whattextp_white">Was Regional Production Editor in the Midlands, overseeing the Birmingham Mail, Birmingham Post, Coventry Telegraph, Sunday Mercury and the region's weekly titles.</p>
-          <p class="whattextp_white">He worked for the Post &amp; Mail 34 years from down-table sub to a stint as deputy editor of the Birmingham Mail before leading the Midlands ContentWatch roll-out in 2008.</p>
-          <p class="whattextp_white"> The GCIT team leader.</br>
-          <a href="mailto:ray.dunn@trinitymirror.com">ray.dunn@trinitymirror.com</a></br>
-          <b>07884 191744</b>
- </p>
-        </div>
 </div>
-</div>
-    </div>
 
 <!-- STEVE MURPHY -->
-<div class="home-what-blk-who" >
-  <div class="wrapper">
-     <div class="row">
-  <div class="large-5 left">
-        <div class="who-cell-dark-left">
-          <img src="<?php echo esc_url( get_template_directory_uri() . '/images/stevemurphy.png' ); ?>" alt="Steve Murphy" class="whoicon_img_sml">
+<div class="home-what-blk-who">
+    <div class="wrapper">
+        <div class="row">
+            <div class="large-5 left">
+                <div class="who-cell-dark-left">
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/stevemurphy.png' ); ?>" alt="Steve Murphy" class="whoicon_img_sml">
+                </div>
+            </div>
+            <div class="large-7 right">
+                <div class="who-cell-dark-right">
+                    <p class="whattexth1_blk">STEVE MURPHY</p>
+                    <p class="whattextp_white">An award winning press photographer with over 25 years experience in newspapers as both a photographer and picture editor, Steve was seconded onto the CHP team at the beginning of 2013 with a brief to help to train and support users across the country in CHP, metadata and photographic workflows.</p>
+                    <p class="whattextp_white">In early 2015 Steve joined GCIT full time as the Senior CHP Executive. He is passionate about photography and the influence of new technology on the creation of images.</p>
+                    <p class="whattextp_white">
+                        <a href="mailto:steve.murphy@trinitymirror.com">steve.murphy@trinitymirror.com</a>
+                        <br />
+                        <b>07778 20123</b>
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="large-7 right">
-        <div class="who-cell-dark-right">
-          <p class="whattexth1_blk">STEVE MURPHY</p>
-          <p class="whattextp_white">An award winning press photographer with over 25 years experience in newspapers as both a photographer and picture editor, Steve was seconded onto the CHP team at the beginning of 2013 with a brief to help to train and support users across the country in CHP, metadata and photographic workflows.</p>
-          <p class="whattextp_white">In early 2015 Steve joined GCIT full time as the Senior CHP Executive. He is passionate about photography and the influence of new technology on the creation of images.</p>
-          <p class="whattextp_white">
-          <a href="mailto:steve.murphy@trinitymirror.com">steve.murphy@trinitymirror.com</a><br />
-          <b>07778 20123</b>
- </p>
-        </div>
-</div>
-</div>
     </div>
 </div>
 

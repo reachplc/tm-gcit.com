@@ -47,7 +47,7 @@
     <header class="head-main nav-line animated">
         <div class="wrapper">
         <div class="row" style="position:relative">
-          <div class="search-icon"></div>
+          
           <div class="search-bar">
     <form id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
       <div>
@@ -74,7 +74,7 @@
 <span></span>
 </div>
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'sort_column' => 'menu_order', 'container_class' => 'menu-header' ) ); ?>
-
+<div class="search-icon"></div>
   </div><!-- #site-navigation -->
       </div>
       </div>

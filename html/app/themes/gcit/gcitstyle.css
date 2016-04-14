@@ -209,8 +209,8 @@ section{
 }
 
 .logo{
-
-  padding-top:10px;
+text-align: left;
+  padding-top:20px;
 }
 
 span{ margin:0; padding: 0}
@@ -5276,7 +5276,9 @@ th.hide-for-touch {
 
 .nav {
   float: right;
-  margin-top:40px;
+ padding-top:20px;
+ padding-bottom:20px;
+ padding-right: 40px
 }
 .nav .container {
   border: 1px solid #dfdcdc;
@@ -5318,9 +5320,9 @@ th.hide-for-touch {
   color:#ccc;
 }
 
-.nav ul li.current-menu-item a {
+/*.nav ul li.current-menu-item a {
   border-bottom: solid 4px #2dc1e3;
-}
+}*/
 
 .nav ul li > a:after {
     color: #000;
@@ -5849,10 +5851,6 @@ iframe video {
 }
 
 
-.nav-line{
-
-  border-bottom:solid 1px #5d5d5d;
-}
 
 
 
@@ -6218,7 +6216,7 @@ iframe video {
 @media screen and (min-width: 1000px) {
 
    .search-icon{
-    top:10px; right:15px;
+    top:28px; right:15px;
   }
 
   .search-bar{
@@ -6352,14 +6350,21 @@ overflow:hidden;
 
 .blackstrip_left
 { float: left;
+  text-align: left;
   min-width: 500px;
-  padding-top: 20px; padding-bottom: 20px; padding-right: 30px; padding-left: 50px;
+  padding-top: 20px; padding-bottom: 20px;
 }
 
 .blackstrip_right
 { float: right;
-  padding-top: 16px; padding-bottom: 16px; padding-right: 50px; padding-left: 30px;
+  padding-top: 16px; padding-bottom: 16px; padding-left: 30px;
 }
+
+.blackstrip_right img
+{ float: right;
+  width:160px;
+}
+
 
 .blackstrip_text
 {   color: white;
@@ -6441,18 +6446,7 @@ overflow:hidden;
   background-color: white;
 }
 
-.home-whatis
-{ padding-left: 40px;
-  padding-right: 1px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 100%;
-  float: left;
-  max-width: 1600px;
-  text-align:center;
-  background-color: white;
 
-}
 
 .home-whatis h1
 {
@@ -6531,24 +6525,13 @@ overflow:hidden;
 }
 
 .how-cell-dark-left
-{ background-color: white;
+{ 
   text-align: right;
   margin-right:35px;
   margin-left: 25px;
 }
 
-.how-cell-dark-right
-{ max-width: 80%;
-  background-color: white;
-  text-align: left;
-  float: left;
-  padding-left: 10px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 16px;
-  margin-left: 0px;
-  vertical-align: baseline;
-}
+
 
 .how-cell-dark-left p
 { color: white;
@@ -6913,4 +6896,8 @@ text-align: center;
     font-size: 36px;
     text-decoration: none;
     font-weight: lighter;
+}
+
+.video-icon{
+  margin-top:-30px;
 }
