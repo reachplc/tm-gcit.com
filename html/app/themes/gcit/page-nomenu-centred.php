@@ -44,27 +44,13 @@ Template Name: Page - No Side Menu - Centred
           </div>
 
 
-          <div class="entry-content">
-
-                  
+          <section class="entry-content">
                                   <div class="content-fillcenter">
-
                                           <?php the_content(); ?>
-
                                             <?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
-
-
                                    </div>
-                    
-
-
-
-
-
-
             
-  
-          </div><!-- .entry-content -->
+          </section><!-- .entry-content -->
 
 
       <?php endwhile; ?>

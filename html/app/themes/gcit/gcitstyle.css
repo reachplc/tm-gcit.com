@@ -6802,16 +6802,11 @@ margin: 0 auto ;
 
 .content-fillcenter,
 .content-fillvid {
-	padding: 70px 260px 80px 260px;
-	text-align: center;
-	width: 60%;
+	text-align: left;
+  width:60%;
+  margin: 0 auto;
 }
 
-.content-leftnomenu {
-	padding: 70px 260px 80px 260px;
-	text-align: left;
-	width:100%;
-}
 
 
 /* Added extra css */
@@ -6988,5 +6983,36 @@ background:transparent;
 #menu-national-production .current_page_item a,  #menu-production .current_page_item a{
   color:#f72061;
   font-weight: 700;
+}
+
+.innermenu-resources {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+width:400px;
+padding: 20px;
+margin-left: 140px;
+margin-top: 40px;
+}
+
+.innermenu-resources p{
+color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+   font-weight: lighter;
+   font-weight:60;
+}
+.body-content-resources {
+ padding: 28px;
+ text-align: left;
+ max-width:650px;
+ margin-top:40px;
+ margin-left: 10px;
+}
+.icon-pointer-resources
+{ float: left;
+ width: 160px;
+padding-bottom: 20px;
+padding-left: 6px;
 }
 
