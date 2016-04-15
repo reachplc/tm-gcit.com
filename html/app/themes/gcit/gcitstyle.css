@@ -6130,7 +6130,6 @@ iframe video {
 
   .search-text{font-size:13px; padding-bottom: 10px; float:left;}
 
-  .search-icon{width:24px; height:24px; background: url(images/search-icon-2x.png); background-size:100%; position:absolute;cursor:pointer; z-index:1;}
 
 
 
@@ -6816,7 +6815,6 @@ margin: 0 auto ;
 .content-fillvid {
 	padding: 70px 260px 80px 260px;
 	text-align: center;
-	align-content: center;
 	width: 60%;
 }
 
@@ -6825,6 +6823,7 @@ margin: 0 auto ;
 	text-align: left;
 	width:100%;
 }
+
 
 /* Added extra css */
 
@@ -6853,6 +6852,7 @@ margin: 0 auto ;
   background-size: 200%;
   cursor: pointer;
   background-position-y: 5px;
+  background-position-x: 7px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -6861,7 +6861,7 @@ margin: 0 auto ;
   }
 }
 .search-icon-open {
-  background-position: -42px;
+  background-position: -34px;
 }
 
 /* Search bar*/
@@ -6990,3 +6990,14 @@ background:transparent;
   margin:0 auto 40px auto;
 
 }
+
+#menu-national-writer .current_page_item a, #menu-writer .current_page_item a{
+  color:#1ed2a3;
+  font-weight: 700;
+}
+
+#menu-national-production .current_page_item a,  #menu-production .current_page_item a{
+  color:#f72061;
+  font-weight: 700;
+}
+
