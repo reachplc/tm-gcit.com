@@ -48,9 +48,10 @@ Template Name: Page - National Production
 
           <div class="entry-content">
 
-                  <div class="large-5 left" style="display: flex; background-color: #333;">
+                <div class="row flex">
+        <div class="large-5 left grey-dark">
+
                       <div class="innermenu">
-                            
                             <div class="icon-pointer">
                               <a href="<?php echo esc_url( home_url( '/contentwatch/national-resources/production' ) ); ?>">
                               <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_right_production.png' ); ?>" alt="Production" width="222" height="142" />
@@ -59,14 +60,9 @@ Template Name: Page - National Production
                               <a href="<?php echo esc_url( home_url( '/contentwatch/national-resources/writer' ) ); ?>">
                               <img class="icon-pointer-img" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_writer.png' ); ?>" alt="Writer" />
                               </a>
-                            
-                               
-                              
                             </div>
-
                             <div class="secondary-nav-prod">
                             <?php wp_nav_menu( array( 'theme_location' => 'national_production' ) ); ?>
-                              
                             </div>
                       </div>
                 </div>
@@ -86,7 +82,7 @@ Template Name: Page - National Production
                                    </div>
                           </div>
 
-
+</div>
 
 
 
