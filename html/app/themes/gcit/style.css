@@ -6131,9 +6131,18 @@ iframe video {
 
   .entry-title, .archive-title {
 		color:#fff;
-		padding:10px 0 15px -30%;
+		padding:20px 0 20px 0;
 		text-transform: uppercase;
+float:left;
+
 	}
+  .entry-title-logo
+  {
+    float:right;
+    width:150px;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
 
   a.entry-search, .archive-title {color:#000; padding:10px 0 15px -30%; text-align: left;}
 
@@ -6581,8 +6590,8 @@ line-height: 17pt;
 
 .innermenu
 { float:right;
-      max-width: 375px;
-  padding: 0 20px 0 5px;
+  max-width: 360px;
+  padding: 0 10px 0 5px;
   width:100%;
 }
 
@@ -6598,14 +6607,16 @@ line-height: 12pt;
 }
 
 .secondary-nav-prod
-{ float: left;
-padding-top: 10px;
+{ float: right;
+padding-top: 30px;
 padding-left: 3px;
 padding-right;: 7px;
 padding-bottom: 10px;
 color: #f72061;
 font-size: 12pt;
 line-height: 12pt;
+width: 190px;
+
 }
 
 .secondary-nav-desk
@@ -6617,6 +6628,10 @@ padding-bottom: 10px;
 color: #f06237;
 font-size: 12pt;
 line-height: 12pt;
+}
+
+.menu-production-container ul{
+  margin-left: 0;
 }
 
 .secondary-nav-writer a
