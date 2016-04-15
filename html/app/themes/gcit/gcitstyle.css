@@ -6497,7 +6497,6 @@ overflow:hidden;
   text-align: left;
   float: left;
   padding-left: 0;
-  padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 35px;
   margin-left: 0px;
@@ -6584,6 +6583,10 @@ overflow:hidden;
   font-size: 1.6em;
   line-height: 1.3em;
   font-weight: bold;
+}
+
+.how-cell-dark-right{
+  max-width:80%;
 }
 
 .how-cell-dark-right1
