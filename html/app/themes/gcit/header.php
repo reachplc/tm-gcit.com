@@ -45,19 +45,18 @@
 
     <div class="menu-box"></div>
     <header class="head-main nav-line animated">
+       <div class="search-bar">
+          <div class="wrapper">
+                <form role="search" method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <input type="text" class="input" name="s" value="SEARCH _____" onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" autocomplete="off">
+                    <input  type="submit" name="submit" value="" />
+                </form>
+        </div>
+    </div>
         <div class="wrapper">
         <div class="row" style="position:relative">
           
-          <div class="search-bar">
-    <form id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
-      <div>
-        <input id="s" class="text" type="text" name="s" placeholder="Search">
-        <div class="submit-icon">
-          <input class="submit" type="submit" name="submit" value="">
-        </div>
-      </div>
-    </form>
-  </div>
+   
       <div class="large-4 columns logo">
       <a href="<?php echo esc_url( home_url( '/contentwatch/' ) ); ?>">
       <img src="<?php echo esc_url( get_template_directory_uri() . '/images/logo.png' ); ?>" />

@@ -5379,13 +5379,14 @@ th.hide-for-touch {
   padding: 0 0 5px 5px;
 }
 .nav ul.sub-menu:before{
-  content: "";
-  top: -16px;
-  position: absolute;
-  left: 0;
-  border: 8px solid transparent;
-  border-bottom-width: 8px;
-  border-bottom-color: #27acca;
+    content: "";
+    top: -16px;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    border: 8px solid transparent;
+    border-bottom-width: 8px;
+    border-bottom-color: #27acca;
 }
 
 .ie8 ul.sub-menu{margin-top:-15px; }
@@ -6164,62 +6165,7 @@ float:left;
 
 
 
-  .search-bar{
-  position:absolute;
-  background-color: rgb(255,255,255);
-  background-color: rgba(255, 255, 255, 0.5);
-  z-index:1;
-  right: -1000px;
-  top:85px;
-  padding:2px;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.search-bar:focus{
-  outline:none;
-}
-
-.search-bar input {
-  float:left;
-  border:0;
-  background:rgb(100, 100, 100);
-  padding-left: 10px;
-  margin:0;
-  font-size:13px;
-  font-weight:300;
-  height:35px;
-  width:250px;
-}
-
-.search-bar .submit {
-  width: 35px;
-  height: 35px;
-   background:url(images/arrowright.png) no-repeat 50% 50%;
-  background-size: 30%;
-
-}
-
-.search-bar .submit-icon{
-  width: 35px;
-  height: 35px;
-  margin-left:5px;
-  float:right;
-  background: #2dc1e3;
-  cursor: pointer;
-}
-
-.search-display{
-  top:85px;
-  right: 15px;
-  color:#000;
-}
-
-.submit{
-  cursor:pointer;
-}
+ 
 
 
 

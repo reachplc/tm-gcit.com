@@ -4,18 +4,11 @@ Javascript Search Bar
  */
 (function($) {
 
-    $(".search-icon").click(function() {
-        $(".search-bar").toggleClass('search-display');
-
-    });
-
-    $(".navicon").click(function() {
-        $(".search-bar").removeClass('search-display');
-
-    });
-
-    $(".search-icon").click(function() {
-        $(".menu").removeClass('ss_visible');
-    });
+        jQuery('.search-icon').click(function() {
+        jQuery(".site-header").toggleClass("resize-header");
+        jQuery(".site-branding").toggleClass("branding-resize");
+        jQuery(".search-bar").toggleClass("search-open");
+        jQuery(".search-icon").toggleClass("search-icon-open");
+ })
 
 })(jQuery);
