@@ -65,7 +65,7 @@ Template Name: Page - Production
                               </a>
                 </div>
                 <div class="secondary-nav-prod">
-                    <?php wp_nav_menu( array( 'theme_location'=> 'production-menu' ) ); ?>
+                    <?php wp_nav_menu( array( 'theme_location' => 'production-menu' ) ); ?>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ Template Name: Page - Production
             <div class="content-fill">
                 <div class="body-content">
                     <?php the_content(); ?>
-                    <?php wp_link_pages( array( 'before'=> '
+                    <?php wp_link_pages( array( 'before' => '
                     <div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
                 </div>
             </div>

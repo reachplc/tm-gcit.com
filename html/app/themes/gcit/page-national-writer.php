@@ -57,7 +57,7 @@ Template Name: Page - National Writer
                               </a>
                 </div>
                 <div class="secondary-nav-writer">
-                    <?php wp_nav_menu( array( 'theme_location'=> 'national_writer' ) ); ?>
+                    <?php wp_nav_menu( array( 'theme_location' => 'national_writer' ) ); ?>
                 </div>
             </div>
         </div>
@@ -65,14 +65,13 @@ Template Name: Page - National Writer
           <div class="content-fill">
               <div class="body-content">
                   <?php the_content(); ?>
-                  <?php wp_link_pages( array( 'before'=> '
+                  <?php wp_link_pages( array( 'before' => '
                   <div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
               </div>
           </div>
       </div>
   </div>
           </div><!-- .entry-content -->
-
 
 
       <?php endwhile; ?>
