@@ -6823,10 +6823,15 @@ margin: 0 auto ;
 }
 
 .content-fillcenter {
-padding: 20px 100px 20px 100px;
-align: center;
-align-content: center;
-width:60%;
+padding: 70px 260px 80px 260px;
+text-align: center;
+width:100%;
+}
+
+.content-leftnomenu {
+padding: 70px 260px 80px 260px;
+text-align: left;
+width:100%;
 }
 
 /* Added extra css */
