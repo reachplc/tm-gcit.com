@@ -193,10 +193,12 @@ select {
 .cyan-light a:hover{ color:#fff;}
 
 .wrapper{
-    margin: 0 auto;
-    width:78%;
+    max-width:1024px;
+    width:97%;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .wrapper-content{
@@ -6547,12 +6549,9 @@ vertical-align: middle;
 
 .icon-pointer
 { float: left;
-  width: 200px;
-padding-top: 20px;
-padding-bottom: 40px;
-padding-left: 40px;
+  width: 120px;
+
 padding-right: 1px;
-background-color: #333;
 }
 
 .icon-pointer-img
@@ -6581,15 +6580,15 @@ line-height: 17pt;
 }
 
 .innermenu
-{ float:left;
+{ float:right;
+      max-width: 375px;
+  padding: 0 20px 0 5px;
   width:100%;
-  background-color: #333;
-  padding-left: 10%;
 }
 
 .secondary-nav-writer
 { float: left;
-padding-top: 10px;
+padding-top: 30px;
 padding-left: 3px;
 padding-right;: 7px;
 padding-bottom: 10px;
@@ -6746,4 +6745,10 @@ font-size: 13pt;
 }
 
 .entry-content {display:flex;
+}
+
+@media screen and (min-width: 767px){
+.flex{
+  display:flex;
+}
 }
