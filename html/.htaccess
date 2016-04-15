@@ -1,3 +1,6 @@
+# #####################################################################
+# # WordPress                                                         #
+# #####################################################################
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
@@ -10,3 +13,14 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+# BEGIN Lockdown XMLRPC to allow access for Jetpack only
+<files xmlrpc.php>
+Order Deny,Allow
+Deny from all
+Allow from 192.0.64.0/18
+Allow from 127.0.0.1 localhost
+Satisfy All
+ErrorDocument 403 "Access Denied. Please contact the administrator for details."
+</files>
+# END Lockdown XMLRPC
