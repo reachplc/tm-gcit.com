@@ -38,8 +38,15 @@ Template Name: Page
               <?php the_post_thumbnail(); ?>
               </div>
               <?php endif; ?>
-
-              <h1 class="entry-title"><?php the_title(); ?></h1>
+              <div class="large-9 blackstrip_left_pages">
+                <h1 class="entry-title"><?php the_title(); ?></h1>
+            </div>
+            <div class="large-3 blackstrip_right_pages">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" target="_blank">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gcit_logo.png' ); ?>" width="160" alt="GCIT" margin="16px 10px 16px 20px" align="right" valign="center">
+        </a>
+            </div>
+              
             </header><!-- .entry-header -->
           </div>
           <div class="entry-content">
