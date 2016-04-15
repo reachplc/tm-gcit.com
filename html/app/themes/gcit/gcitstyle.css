@@ -6822,9 +6822,11 @@ margin: 0 auto ;
   max-width:650px;
 }
 
-.content-fillvid {
+.content-fillcenter {
 padding: 20px 100px 20px 100px;
-text-align: center;
+align: center;
+align-content: center;
+width:60%;
 }
 
 /* Added extra css */
