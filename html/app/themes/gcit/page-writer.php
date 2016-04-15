@@ -20,18 +20,18 @@ Template Name: Page - Writer
   <?php get_header(); ?>
   <div class="row z-fix" >
     <div class="large-12 columns">
-     
+
     </div>
   </div>
 </div>
 
   <main id="primary" class="content-area">
-   
+
     <?php /* The loop */ ?>
       <?php while ( have_posts() ) : the_post(); ?>
 
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-          
+
           <div class="row black-bk">
             <header class="entry-header wrapper">
                 <div class="large-12">
@@ -42,7 +42,7 @@ Template Name: Page - Writer
               <?php endif; ?>
               <h1 class="entry-title"><?php the_title(); ?></h1>
               <div class="entry-title-logo">
-                <img src="<?php echo esc_url( get_template_directory_uri() . '/images/GCIT_logo.png"' ); ?>" >
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gcit_logo.png"' ); ?>" >
               </div>
              </div>
             </header><!-- .entry-header -->
@@ -50,7 +50,7 @@ Template Name: Page - Writer
 
 
           <div class="entry-content">
-          
+
                <div class ="row flex">
                   <div class="large-5 left grey-dark">
                       <div class="innermenu">
@@ -58,7 +58,7 @@ Template Name: Page - Writer
                               <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/writer' ) ); ?>">
                               <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_right_writer.png' ); ?>" alt="Writer" width="222" height="142" />
                               </a>
-                              <br /> 
+                              <br />
                               <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/production' ) ); ?>">
                               <img class="icon-pointer-img" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_production.png' ); ?>" alt="Production" />
                               </a>
@@ -77,7 +77,7 @@ Template Name: Page - Writer
                               </div>
                     </div>
               </div>
-      
+
           </div><!-- .entry-content -->
 
 
