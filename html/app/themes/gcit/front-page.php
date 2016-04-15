@@ -71,21 +71,13 @@
         </div>
         <div class="large-7 right">
             <div class="how-cell-dark-right">
-                <p class="whattexth1">We've put together dedicated micro-sites that give you the ins and outs of ContentWatch and CHP.
-            <br />The sites are full of great stuff about the systems. </p>
+                <p class="whattexth1">We've put together dedicated micro-sites that give you the ins and outs of ContentWatch and CHP. The sites are full of great stuff about the systems. </p>
                 <a href="<?php echo esc_url( home_url( '/contentwatch/' ) ); ?>">
-    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/contentwatch2.png' ); ?>" alt="ContentWatch"  class="whoicon_img_sml"/>
-    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/cwlogo.png' ); ?>" alt="ContentWatch"  class="logo_img_sml"/>
-    </a>
-                <br />
-                <br />
+                    <div class="contentWatch-link"></div>
+                </a>
                 <a href="https://sites.google.com/a/trinitymirror.com/chp-knowledgebase/">
-    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/chp2.png' ); ?>" alt="CHP"  class="whoicon_img_sml"/>
-    </a>
-                <a href="https://sites.google.com/a/trinitymirror.com/chp-knowledgebase/">
-    <img src="<?php echo esc_url( get_template_directory_uri() . '/images/chplogo.png' ); ?>" alt="CHP"  class="logo_img_sml"/>
-    </a>
-                <br />
+                    <div class="chp-link"></div>
+                </a>
             </div>
         </div>
     </div>
