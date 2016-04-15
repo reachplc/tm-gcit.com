@@ -28,7 +28,7 @@
 
 <body>
 
-<a href="#" class="back-to-top">Back to Top</a>
+<a href="#home-back" class="back-to-top">Back to Top</a>
 
 <!-- HERO WHAT. WHY. WHO -->
   <section id="home-back">
@@ -315,17 +315,4 @@
 </div>
 </section>
 
-  <div class="wrapper">
-    <div class="row">
-      <div class="large-3 columns"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/gcit_logo.png' ); ?>" class="footer"/>
-      </div>
-      <div class="copyright large-9 columns text-right m-tb"><span class="grey-mid-txt">Copyright &copy; Trinity Mirror plc <?php the_date( 'Y' ) ?> | Website by Trinity Mirror Creative</span>
-      </div>
-      </div>
-  </div>
-
-<script type="text/javascript">
-  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
-</script>
-</body>
-</html>
+<?php get_footer( 'front-page' ); ?>

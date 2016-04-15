@@ -68,7 +68,7 @@ $(document).ready(function(){
 </script>
 
 
-<script>  
+<script>
 
 jQuery(document).ready(function($) {
 
@@ -76,10 +76,10 @@ jQuery(document).ready(function($) {
     function () {
       //show its submenu
       $('ul:first', this).css('display', 'block');
-    }, 
+    },
     function () {
       //hide its submenu
-      $('ul:first', this).css('display', 'none'); 
+      $('ul:first', this).css('display', 'none');
     }
   );
 
@@ -87,12 +87,9 @@ jQuery(document).ready(function($) {
 
 </script>
 
-</script>
-
-
 <?php wp_footer(); ?>
 
-<script> 
+<script>
 <?php if ( 'useful-guides' == $page ) {?>
 ;(function( $ ){
   $(document).ready(function(){
@@ -103,5 +100,6 @@ jQuery(document).ready(function($) {
 <?php } ?>
 </script>
 
+</body>
 
-</body></html>
+</html>
