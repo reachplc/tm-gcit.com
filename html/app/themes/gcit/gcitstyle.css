@@ -6082,7 +6082,6 @@ iframe video {
 
 }
 
-
 /* ====================================================================
    Footer
    ================================================================= */
@@ -6110,12 +6109,9 @@ iframe video {
    Page Content template
    ================================================================= */
 
-
   .entry-content h1 {background: url(images/arrowright.png) 100% center no-repeat;}
 
   .entry-content h2 {color:#000;}
-
-
 
   .page-content{padding-top:20px;}
 
@@ -6130,13 +6126,6 @@ iframe video {
 
   .search-text{font-size:13px; padding-bottom: 10px; float:left;}
 
-
-
-
-
-
-
-.
 
 @media screen and (max-width: 480px) {
 
