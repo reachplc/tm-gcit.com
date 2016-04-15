@@ -8338,4 +8338,5 @@ a.sitelinks {
 .content-leftnomenu {
     width: 70%;
     margin: 0 auto;
+    max-width:750px;
 }
