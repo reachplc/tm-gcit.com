@@ -6812,9 +6812,18 @@ margin: 0 auto ;
   max-width:650px;
 }
 
+.content-fillcenter,
 .content-fillvid {
-padding: 20px 100px 20px 100px;
-text-align: center;
+	padding: 70px 260px 80px 260px;
+	text-align: center;
+	align-content: center;
+	width: 60%;
+}
+
+.content-leftnomenu {
+	padding: 70px 260px 80px 260px;
+	text-align: left;
+	width:100%;
 }
 
 /* Added extra css */

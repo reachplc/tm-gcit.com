@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Page - No Side Menu
+Template Name: Page - No Side Menu - Centred
 */
 ?>
 
@@ -47,7 +47,7 @@ Template Name: Page - No Side Menu
           <div class="entry-content">
 
                   
-                                  <div class="content-leftnomenu">
+                                  <div class="content-fillcenter">
 
                                           <?php the_content(); ?>
 
