@@ -48,47 +48,33 @@ Template Name: Page - National
           </div>
           <div class="entry-content">
 
-                  <div class="large-5 left" style="display: flex; background-color: #333;">
+              <div class ="row flex">
+                  <div class="large-5 left grey-dark">
                       <div class="innermenu-resources">
                             <p>To view the relevant information select one of the icons below:</p>
                             <div class="icon-pointer-resources">
                               <a href="<?php echo esc_url( home_url( '/contentwatch/national-resources/writer' ) ); ?>">
                               <img class="icon-pointer-img" width="140" style="padding-left: 0px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_writer.png' ); ?>" alt="Writer" />
                               </a>
-                              
                             </div>
                             <div class="icon-pointer-resources">
-                              
                               <a href="<?php echo esc_url( home_url( '/contentwatch/national-resources/production' ) ); ?>">
                               <img class="icon-pointer-img" width="140" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_production.png' ); ?>" alt="Production" />
                               </a>
                             </div>
-                            
                       </div>
                 </div>
-
-
 
                   <div class="large-7 right">
                                   <div class="content-fill">
                                         <div class="body-content-resources">
-
                                           <?php the_content(); ?>
-
                                             <?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
-
 
                                         </div>
                                    </div>
                           </div>
-
-
-
-
-
-
-            
-  
+                          </div>
           </div><!-- .entry-content -->
 
        
