@@ -981,7 +981,7 @@ span{ margin:0; padding: 0}
 
     .large-5 {
 position: relative;
-    width: 41.66667%; 
+    width: 41.66667%;
 }
 
   .large-6 {
@@ -5843,7 +5843,7 @@ iframe video {
 .menu-box{height:70px;}
 
 #home-back{
-  background-image: url(images/GCIT_headerpic.jpg);
+  background-image: url(images/gcit_headerpic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% top;
@@ -6119,7 +6119,7 @@ iframe video {
 
   .entry-content h2 {color:#000;}
 
- 
+
 
   .page-content{padding-top:20px;}
 
@@ -6263,12 +6263,12 @@ overflow:hidden;
     color: #fff;
     width:100%;
     min-height:500px;
-    background-image:url(images/GCIT_headerpic.jpg);
+    background-image:url(images/gcit_headerpic.jpg);
     background-repeat: no-repeat;
 }
 
 #cwheaderpic
-{ background-image: url('images/CW_header1.jpg');
+{ background-image: url('images/cw_header1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% top;
@@ -6302,10 +6302,10 @@ overflow:hidden;
 
 .blackstrip_text
 {   color: white;
-    
+
     font-family: "Open Sans Light", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 40px;
-    font-weight: normal; 
+    font-weight: normal;
     vertical-align: center;
 }
 
@@ -6315,12 +6315,12 @@ overflow:hidden;
     margin-bottom:10px;
     font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
     font-size:30px;
-    font-weight: normal; 
-    line-height:1.1em; 
+    font-weight: normal;
+    line-height:1.1em;
 
 }
 
-.whatis 
+.whatis
 {
   position: relative;
   padding-left: 20px;
@@ -6368,7 +6368,7 @@ overflow:hidden;
 { color: #2dc1e1;
 }
 
-.how 
+.how
 {
   position: relative;
   padding-left: 20px;
@@ -6416,7 +6416,7 @@ overflow:hidden;
 
 
 
-.home-what 
+.home-what
 { padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
@@ -6459,7 +6459,7 @@ overflow:hidden;
 }
 
 .how-cell-dark-left
-{ 
+{
   text-align: right;
   margin-right:35px;
   margin-left: 25px;
@@ -6541,7 +6541,7 @@ overflow:hidden;
 }
 
 .logo_img_sml
-{ 
+{
   max-width: 25%;
   min-width: 200px;
   padding-top: 30px;
@@ -6695,7 +6695,7 @@ vertical-align: middle;
 { float: left;
   width: 222px;
 padding-top: 30px;
-padding-bottom: 10px;  
+padding-bottom: 10px;
 }
 
 .icon-pointer-menu
@@ -6703,7 +6703,7 @@ padding-bottom: 10px;
 padding-top: 2px;
 padding-left: 20px;
 padding-right;: 5px;
-padding-bottom: 1px; 
+padding-bottom: 1px;
 color: #1ed2a3;
 font-size: 18pt;
 line-height: 17pt;
@@ -6715,7 +6715,7 @@ line-height: 17pt;
 padding-top: 2px;
 padding-left: 20px;
 padding-right;: 10px;
-padding-bottom: 1px; 
+padding-bottom: 1px;
 color: #f72061;
 font-size: 17pt;
 line-height: 17pt;
@@ -6739,14 +6739,14 @@ font-size: 12pt;
 padding-top: 2px;
 padding-left: 40px;
 padding-right;: 2px;
-padding-bottom: 1px; 
+padding-bottom: 1px;
 color: white;
 font-size: 15pt;
 line-height: 17pt;
 }
 
 .icon-pointer-menu-pink-indent a
-{  
+{
 color: #f72061;
 font-size: 11pt;
 }
@@ -6757,7 +6757,7 @@ font-size: 11pt;
 padding-top: 2px;
 padding-left: 20px;
 padding-right;: 10px;
-padding-bottom: 1px; 
+padding-bottom: 1px;
 color: #f06237;
 font-size: 18pt;
 line-height: 17pt;
@@ -6813,7 +6813,7 @@ min-height: 100%;
 height: auto !important;
 height: 100%;
 margin: 0 auto ;
-  
+
 }
 
 .body-content {
