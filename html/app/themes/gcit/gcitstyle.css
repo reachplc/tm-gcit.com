@@ -211,6 +211,7 @@ section{
 .logo{
 text-align: left;
   padding-top:20px;
+      float: left;
 }
 
 span{ margin:0; padding: 0}
@@ -5833,12 +5834,7 @@ iframe video {
   z-index:1;
    }
 
-   .head-main
-   {
-    padding-top:10px; position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;}
+
 
 .menu-box{height:70px;}
 
@@ -5879,7 +5875,7 @@ iframe video {
 
 .fixed-header{
   background-color:rgb(0,0,0);
-  background-color:rgba(255,255,255,0.7);
+  background-color:rgba(255,255,255,0.9);
 }
 
 
@@ -6286,7 +6282,7 @@ overflow:hidden;
 { float: left;
   text-align: left;
   min-width: 500px;
-  padding-top: 20px; padding-bottom: 20px;
+  padding-top: 10px; padding-bottom: 10px;
 }
 
 .blackstrip_right
@@ -6382,12 +6378,6 @@ overflow:hidden;
 
 
 
-.home-whatis h1
-{
-  font-size: 6em;
-  line-height: 1.1em;
-
-}
 
 .app-table
 { display: inline-block;
@@ -6552,21 +6542,21 @@ overflow:hidden;
 .whattextp
 { color: black;
   text-align: left;
-  font-size: 1.2em;
-  line-height: 1.4em;
+  font-size: 15px;
+  line-height: 120%;
 }
 
 .whattextp_white
 { color: white;
   text-align: left;
-  font-size: 1.2em;
-  line-height: 1.4em;
+  font-size: 15px;
+  line-height: 120%
 }
 
 .whattexth1
 { color: #2dc1e1;
   text-align: left;
-  font-size: 1.7em;
+  font-size: 20px;
   line-height: 1.3em;
 }
 
@@ -6830,10 +6820,11 @@ text-align: center;
 /* Added extra css */
 
 .hero-text {
-    color: white;
-    font-size: 36px;
+    color: #fff;
+    font-size: 30px;
     text-decoration: none;
     font-weight: lighter;
+    font-weight:500;
 }
 
 .video-icon{
@@ -6905,6 +6896,7 @@ text-align: center;
 .search-bar .input {
   font-family: "open-sans", sans-serif;
   font-weight: 700;
+      padding: 0;
   font-size: 1.5em;
   background: transparent;
   width: 70%;
@@ -6953,4 +6945,39 @@ background:transparent;
 
 .searchform {
   padding-top: 15px;
+}
+
+.contentWatch-link{
+  width:219px;
+   margin-right:10px;
+  float:left;
+  height:71px;
+  background-image: url(./images/content_normal.png);
+  background-repeat: no-repeat;
+}
+
+.contentWatch-link:hover{
+  background-image: url(./images/content_rollover.png);
+  background-repeat: no-repeat;
+}
+
+.chp-link{
+    width:219px;
+    float:left;
+   height:71px;
+   background-image: url(./images/chp_normal.png);
+  background-repeat: no-repeat;
+}
+
+.chp-link:hover{
+  background-image: url(./images/chp_rollover.png);
+  background-repeat: no-repeat;
+}
+
+.how-website-text p{
+  color:#fff !important;
+  font-size:18px;
+  width:70%;
+  margin:0 auto 40px auto;
+
 }

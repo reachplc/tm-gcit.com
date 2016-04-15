@@ -16,7 +16,7 @@ Template Name: ContentWatch Home
     <div class="wrapper">
         <div class="row">
             <div class="large-9 blackstrip_left">
-                <p class="blackstrip_text_cyan">Transforming Newsrooms <font color="#ffffff">Throughout Trinity Mirror</font>
+                <p class="blackstrip_text_cyan">Transforming Newsrooms <br><font color="#ffffff">Throughout Trinity Mirror</font>
                 </p>
             </div>
             <div class="large-3 blackstrip_right">
@@ -76,7 +76,7 @@ Template Name: ContentWatch Home
                 </div>
             </div>
             <div class="large-12">
-                <div class="how-cell-dark-right">
+                <div class="how-website-text">
                     <p>This site has been designed to be as specific as it can to the working practices of your publication and we have split the site into work areas and individual functions.</p>
                 </div>
             </div>

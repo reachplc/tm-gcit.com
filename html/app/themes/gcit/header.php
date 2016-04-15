@@ -57,7 +57,7 @@
         <div class="row" style="position:relative">
           
    
-      <div class="large-4 columns logo">
+      <div class="large-4  logo">
       <a href="<?php echo esc_url( home_url( '/contentwatch/' ) ); ?>">
       <img src="<?php echo esc_url( get_template_directory_uri() . '/images/logo.png' ); ?>" />
       </a>

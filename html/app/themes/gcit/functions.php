@@ -220,7 +220,7 @@ function twentythirteen_scripts_styles() {
 	wp_enqueue_style( 'gcitstyle', get_template_directory_uri() . '/gcitstyle.css', array( 'google-fonts' ), '2016-03-31' );
 
 	// Google Fonts.
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700' );
 
 }
 add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
