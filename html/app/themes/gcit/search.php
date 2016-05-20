@@ -29,7 +29,7 @@ get_header(); ?>
 
 					<div class="page-content">
 
-<div class="wrapper top">
+<div class="wrapper top searchleft" >
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
