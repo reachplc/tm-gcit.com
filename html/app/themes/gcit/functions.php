@@ -94,10 +94,6 @@ function twentythirteen_setup() {
 		register_nav_menu( 'writer-menu',__( 'Writer Menu' ) );
 	}
 
-		function register_my_menu() {
-		register_nav_menu( 'support',__( 'Support' ) );
-	}
-
 	add_action( 'init', 'register_my_menu' );
 
 	function register_my_menus() {
@@ -106,7 +102,8 @@ function twentythirteen_setup() {
 				'desk-menu' => __( 'Desk Menu' ),
 				'production-menu' => __( 'Production Menu' ),
 				'national_writer' => __( 'National_Writer' ),
-				'national_production' => __( 'National_Production' )
+				'national_production' => __( 'National_Production' ),
+				'support' => __( 'Support' )
 			)
 		);
 	}
