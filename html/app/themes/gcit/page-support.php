@@ -53,8 +53,8 @@ Template Name: Page - Support
         <div class="large-5 left grey-dark">
             <div class="innermenu">
                 <div class="icon-pointer">
-                    <a href="<?php echo esc_url( home_url( '/contentwatch/national-resources/support' ) ); ?>">
-                              <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/support_troubleshooting-1.png' ); ?>" alt="Support" width="197" height="197" />
+                    <a href="<?php echo esc_url( home_url( '/contentwatch/support' ) ); ?>">
+                              <img class=" size-full wp-image-255 alignnone" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/support.png' ); ?>" alt="Support" width="197" height="197" />
                               </a>
                     
                 </div>
