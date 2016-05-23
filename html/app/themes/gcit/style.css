@@ -199,6 +199,11 @@ select {
 .wrapper-content {
     background-color: lime;
 }
+
+.searchleft {
+    text-align: left;
+}
+
 .wrapper-footer {
     margin: 0 auto;
     width: 78%;
@@ -7547,6 +7552,16 @@ footer .menu {
     float: left;
     font-size: 30px;
 }
+
+.entry-title-search {
+    color:#fff;
+    padding:20px 0 20px 0;
+    text-transform: uppercase;
+float:none;
+text-align: left;
+
+  }
+
 .entry-title-logo {
     float: right;
     width: 150px;
