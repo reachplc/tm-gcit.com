@@ -94,6 +94,10 @@ function twentythirteen_setup() {
 		register_nav_menu( 'writer-menu',__( 'Writer Menu' ) );
 	}
 
+		function register_my_menu() {
+		register_nav_menu( 'support',__( 'Support' ) );
+	}
+
 	add_action( 'init', 'register_my_menu' );
 
 	function register_my_menus() {
