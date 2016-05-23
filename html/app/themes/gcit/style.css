@@ -7961,6 +7961,19 @@ a.entry-search,
     font-size: 12pt;
     line-height: 12pt;
 }
+
+.secondary-nav-support {
+    float: left;
+    padding-top: 30px;
+    padding-left: 3px;
+    padding-right;
+    : 7px;
+    padding-bottom: 10px;
+    color: #38b5cf;
+    font-size: 12pt;
+    line-height: 12pt;
+}
+
 .secondary-nav-prod {
     float: right;
     padding-top: 30px;
