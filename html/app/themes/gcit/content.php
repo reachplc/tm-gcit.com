@@ -37,7 +37,7 @@
 
 	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 
-	<h5 class="entry-search"><a href="<?php the_permalink(); ?>" rel="bookmark" class="entry-search"><?php the_title(); ?></a></h5>
+	<h4 class="entry-search"><a href="<?php the_permalink(); ?>" rel="bookmark" class="entry-search"><?php the_title(); ?></a></h5>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>

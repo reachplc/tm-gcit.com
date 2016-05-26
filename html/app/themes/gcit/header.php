@@ -48,7 +48,7 @@
        <div class="search-bar">
           <div class="wrapper">
                 <form role="search" method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-                    <input type="text" class="input" name="s" value="SEARCH _____" onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" autocomplete="off">
+                    <input type="text" class="input" name="s" value="TYPE HERE TO SEARCH THIS SITE..." onclick="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" autocomplete="off">
                     <input  type="submit" name="submit" value="" />
                 </form>
         </div>

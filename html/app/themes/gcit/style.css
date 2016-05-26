@@ -7570,7 +7570,7 @@ text-align: left;
 }
 a.entry-search,
 .archive-title {
-    color: #000;
+    color: #38b5cf;
     padding: 10px 0 15px -30%;
     text-align: left;
 }
@@ -7578,10 +7578,8 @@ a.entry-search,
     padding-top: 20px;
 }
 .entry-summary {
-    padding-bottom: 5px;
-}
-.entry-summary {
-    padding: 0;
+    padding-bottom: 15px;
+    padding: 5px 10px 20px 0px;
     margin: 0;
 }
 /* ==================================================================
