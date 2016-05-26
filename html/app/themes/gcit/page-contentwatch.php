@@ -104,7 +104,7 @@ Template Name: ContentWatch Home
                 <div class="how-cell-dark-right1">
                     <h1>Video:</h1>
                     <p>What&rsquo;s new in Adobe Creative Suite 5.5</p>
-                    <p><a href="<?php echo esc_url( home_url( '/contentwatch/video/' ) ); ?>">Click here</p>
+                    <p><a href="<?php echo esc_url( home_url( '/contentwatch/video/' ) ); ?>">CLICK HERE</p>
                 </div>
             </div>
           </div>
