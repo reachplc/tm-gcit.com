@@ -1,7 +1,12 @@
 <?php
-/*
-Template Name: ContentWatch Home
-*/
+/**
+ * Template Name: ContentWatch Home
+ *
+ * @package WordPress
+ * @subpackage GCIT
+ * @since GCIT 1.0
+ */
+
 ?>
 <?php get_header(); ?>
 

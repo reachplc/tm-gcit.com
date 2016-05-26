@@ -3,12 +3,9 @@
  * The template for displaying all single posts
  *
  * @package Careers & Development
- *
  */
+
 ?>
-
-  
-
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -16,7 +13,7 @@
 
 		<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
 		<div class="entry-thumbnail">
-			<?php /*the_post_thumbnail();*/ ?>
+			<?php /* the_post_thumbnail */ ?>
 		</div>
 		<?php endif; ?>
 
@@ -26,16 +23,16 @@
               <h2 class="entry-title"><?php the_title(); ?></h2>
             </header><!-- .entry-header -->
           </div>
-		<?php endif; // is_single() ?>
-		
-	
+		<?php endif; // End is_single. ?>
+
+
 		<div class="entry-meta">
-			<?php /*twentythirteen_entry_meta();*/ ?>
+			<?php /* twentythirteen_entry_meta */ ?>
 			<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
+	<?php if ( is_search() ) : // Only display Excerpts for Search. ?>
 
 	<h4 class="entry-search"><a href="<?php the_permalink(); ?>" rel="bookmark" class="entry-search"><?php the_title(); ?></a></h5>
 
@@ -55,16 +52,16 @@
 	</div>
 	<?php endif; ?>
 
-	
+
 	<footer class="entry-meta">
 
 		<?php if ( comments_open() && ! is_single() ) : ?>
-		
+
 			<div class="comments-link">
 				<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', 'twentythirteen' ) . '</span>', __( 'One comment so far', 'twentythirteen' ), __( 'View all % comments', 'twentythirteen' ) ); ?>
 			</div><!-- .comments-link -->
-		
-		<?php endif; // comments_open() ?>
+
+		<?php endif; // End comments_open. ?>
 
 		<?php if ( is_single() && get_the_author_meta( 'description' ) && is_multi_author() ) : ?>
 			<?php get_template_part( 'author-bio' ); ?>

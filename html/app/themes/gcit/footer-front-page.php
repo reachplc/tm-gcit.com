@@ -6,6 +6,7 @@
  * @subpackage GCIT
  * @since GCIT 1.0
  */
+
 ?>
 <footer style="clear: both">
 	<div class="wrapper">

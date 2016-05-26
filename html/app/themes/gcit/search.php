@@ -22,7 +22,7 @@ get_header(); ?>
 
 		 <div class="cyan-light">
             <header class="entry-header wrapper">
-              <h2 class="entry-title-search"><?php printf( __( 'Search Results for: %s', 'twentythirteen' ), get_search_query() ); ?></h2>
+              <h2 class="entry-title-search"><?php printf( esc_html__( 'Search Results for: %s', 'twentythirteen' ), get_search_query() ); ?></h2>
             </header><!-- .entry-header -->
       </div>
 

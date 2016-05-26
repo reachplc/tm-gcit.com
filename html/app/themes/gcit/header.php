@@ -8,7 +8,9 @@
  * @subpackage GCIT
  * @since GCIT 1.0
  */
-?><!DOCTYPE html>
+
+?>
+<!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
 <![endif]-->

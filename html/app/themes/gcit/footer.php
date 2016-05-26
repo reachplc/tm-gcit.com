@@ -8,6 +8,7 @@
  * @subpackage GCIT
  * @since GCIT 1.0
  */
+
 ?>
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="row cyan-dark">
@@ -15,17 +16,17 @@
       <br clear=all />
       <!-- <div class="large-3 columns no-pad m-tb">
         <?php if ( ! function_exists( 'dynamic_sidebar' ) ||
-! dynamic_sidebar( 'foot-col-1' ) ) : ?>
+		! dynamic_sidebar( 'foot-col-1' ) ) : ?>
         <?php endif; ?>
       </div>
       <div class="large-3 columns m-tb">
         <?php if ( ! function_exists( 'dynamic_sidebar' ) ||
-! dynamic_sidebar( 'foot-col-1a' ) ) : ?>
+		! dynamic_sidebar( 'foot-col-1a' ) ) : ?>
         <?php endif; ?>
       </div>
       <div class="large-6 columns no-pad m-tb">
         <?php if ( ! function_exists( 'dynamic_sidebar' ) ||
-! dynamic_sidebar( 'foot-col-2' ) ) : ?>
+		! dynamic_sidebar( 'foot-col-2' ) ) : ?>
         <?php endif; ?>
       </div> -->
     </div>

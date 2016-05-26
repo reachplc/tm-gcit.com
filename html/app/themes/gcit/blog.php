@@ -1,16 +1,12 @@
 <?php
-/*
-Template Name: Blog
-*/
-?>
-
-<?php
 /**
+ * Template Name: Blog
+ *
  * The template for displaying all single posts
  *
  * @package Careers & Development
- *
  */
+
 ?>
 
 	<?php get_header(); ?>

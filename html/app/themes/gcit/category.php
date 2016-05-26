@@ -13,7 +13,7 @@
 <?php get_header(); ?>
 <div class="row z-fix" >
     <div class="large-12 columns">
-     
+
     </div>
   </div>
 </div>
@@ -24,10 +24,10 @@
 		<?php if ( have_posts() ) : ?>
 		<div class="cyan-light">
 			<header class="archive-header wrapper">
-				<h2 class="archive-title"><?php printf( __( 'Category Archives: %s', 'twentythirteen' ), single_cat_title( '', false ) ); ?></h2>
+				<h2 class="archive-title"><?php printf( esc_html__( 'Category Archives: %s', 'twentythirteen' ), single_cat_title( '', false ) ); ?></h2>
 			</div>
 
-				<?php if ( category_description() ) : // Show an optional category description ?>
+				<?php if ( category_description() ) : // Show an optional category description. ?>
 				<div class="archive-meta"><?php echo category_description(); ?></div>
 				<?php endif; ?>
 			</header><!-- .archive-header -->

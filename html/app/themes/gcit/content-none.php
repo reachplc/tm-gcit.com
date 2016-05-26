@@ -6,6 +6,7 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
+
 ?>
 <div class="cyan-light">
 	<div class="wrapper">
@@ -34,4 +35,3 @@
 
 	<?php endif; ?>
 </div><!-- .page-content -->
-

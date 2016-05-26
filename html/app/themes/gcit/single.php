@@ -3,23 +3,20 @@
  * The template for displaying all single posts
  *
  * @package Careers & Development
- *
  */
+
 ?>
 
-
-  <?php get_header(); ?>
+	<?php get_header(); ?>
   <div class="row z-fix" >
     <div class="large-12 columns">
-     
+
     </div>
   </div>
 </div>
 
-
-
 <div id="primary" class="content-area">
-  
+
 
 					<?php /* The loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
@@ -32,7 +29,7 @@
 
 			<?php endwhile; ?>
 
-		
+
 </div><!-- #primary -->
 
 <?php get_sidebar(); ?>
