@@ -103,7 +103,8 @@ function twentythirteen_setup() {
 				'production-menu' => __( 'Production Menu' ),
 				'national_writer' => __( 'National_Writer' ),
 				'national_production' => __( 'National_Production' ),
-				'support' => __( 'Support' )
+				'support' => __( 'Support' ),
+				'video' => __( 'Video' )
 			)
 		);
 	}

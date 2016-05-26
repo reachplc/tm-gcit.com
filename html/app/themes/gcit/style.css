@@ -7972,6 +7972,18 @@ a.entry-search,
     line-height: 12pt;
 }
 
+.secondary-nav-video{
+    float: left;
+    padding-top: 30px;
+    padding-left: 3px;
+    padding-right;
+    : 7px;
+    padding-bottom: 10px;
+    color: #f06e44;
+    font-size: 12pt;
+    line-height: 12pt;
+}
+
 .secondary-nav-prod {
     float: right;
     padding-top: 30px;
