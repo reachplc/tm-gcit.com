@@ -98,12 +98,18 @@ function twentythirteen_setup() {
 		'footer-menu', __( 'Footer Menu' )
 	);
 
+	/**
+	 * Register Navigation Menu
+	 */
 	function register_my_menu() {
 		register_nav_menu( 'writer-menu',__( 'Writer Menu' ) );
 	}
 
 	add_action( 'init', 'register_my_menu' );
 
+	/**
+	 * Register Main Site Menus
+	 */
 	function register_my_menus() {
 		register_nav_menus(
 			array(
@@ -237,7 +243,9 @@ function twentythirteen_scripts_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
 
-
+/**
+ * Add FitVid jQuery
+ */
 function careers_scripts_videos() {
 	global $page;
 	if ( 'useful-guides' === $page ) {
@@ -406,11 +414,11 @@ if ( ! function_exists( 'twentythirteen_post_nav' ) ) :
 	 */
 	function twentythirteen_post_nav() {
 		global $post;
-
+		// @codingStandardsIgnoreStart
 		// Don't print empty markup if there's nowhere to navigate.
-		$previous = ( is_attachment() ) ? get_post( $post->post_parent ) : get_adjacent_post( false, '', true );
-		$next     = get_adjacent_post( false, '', false );
-
+		$previous = ( is_attachment() ) ? get_post( $post->post_parent ) : get_adjacent_post( false, '', true ); // WPCS: cache ok.
+		$next     = get_adjacent_post( false, '', false ); // WPCS: cache ok.
+		// @codingStandardsIgnoreEnd
 		if ( ! $next && ! $previous ) {
 			return;
 		}

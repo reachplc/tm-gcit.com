@@ -22,8 +22,8 @@ if ( post_password_required() ) {
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
-				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'gcit' ),
-				number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+				printf( esc_html( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'gcit' ),
+				number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' ) );
 			?>
 		</h2>
 
@@ -52,7 +52,7 @@ if ( post_password_required() ) {
 		<p class="no-comments"><?php esc_html_e( 'Comments are closed.' , 'gcit' ); ?></p>
 		<?php endif; ?>
 
-	<?php endif; // have_comments(). ?>
+	<?php endif; // Have Comments. ?>
 
 	<?php comment_form(); ?>
 

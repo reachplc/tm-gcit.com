@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
 <?php wp_footer(); ?>
 
 <script>
-<?php if ( 'useful-guides' == $page ) {?>
+<?php if ( 'useful-guides' === $page ) {?>
 ;(function( $ ){
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
