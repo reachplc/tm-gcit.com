@@ -24,19 +24,7 @@
   <title><?php wp_title( '|', true, 'right' ); ?></title>
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-  <link rel="icon" href="<?php echo esc_url( get_template_directory_uri() . '/favicon.ico' ); ?>" type="image/x-icon">
-  <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() . '/favicon.ico' ); ?>" type="image/x-icon">
-  <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/favicon.png' ); ?>">
-  <link rel="apple-touch-icon" sizes="152x152" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/152x152-precomposed.png' ); ?>">
-  <link rel="apple-touch-icon" sizes="114x114" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/114x114-precomposed.png' ); ?>">
-  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/72x72-precomposed.png' ); ?>">
-  <link rel="apple-touch-icon" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/60x60-precomposed.png' ); ?>">
-  <link rel="icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() . '/images/apple-touch-icons/speeddial-160x160.png' ); ?>">
- 
-  <?php wp_head(); ?>
-
-
-
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -55,8 +43,8 @@
     </div>
         <div class="wrapper">
         <div class="row" style="position:relative">
-          
-   
+
+
       <div class="large-4  logo">
       <a href="<?php echo esc_url( home_url( '/contentwatch/' ) ); ?>">
       <img src="<?php echo esc_url( get_template_directory_uri() . '/images/logo.png' ); ?>" />
