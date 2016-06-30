@@ -19,10 +19,10 @@
 
 		<?php if ( is_single() ) : ?>
 		<div class="row cyan-dark">
-            <header class="entry-header wrapper">
-              <h2 class="entry-title"><?php the_title(); ?></h2>
-            </header><!-- .entry-header -->
-          </div>
+						<header class="entry-header wrapper">
+							<h2 class="entry-title"><?php the_title(); ?></h2>
+						</header><!-- .entry-header -->
+					</div>
 		<?php endif; // End is_single. ?>
 
 

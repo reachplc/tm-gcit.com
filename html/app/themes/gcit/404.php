@@ -8,21 +8,21 @@
 
 get_header(); ?>
 <div class="row z-fix" >
-    <div class="large-12 columns">
+		<div class="large-12 columns">
 
-    </div>
-  </div>
+		</div>
+	</div>
 </div>
 
 	<div id="primary" class="content-area">
 
-    <div class="cyan-light">
-            <header class="entry-header wrapper">
-              <h2 class="entry-title"><?php esc_html_e( 'Not Found', 'gcit' ); ?></h2>
-            </header><!-- .entry-header -->
-        </div>
+		<div class="cyan-light">
+						<header class="entry-header wrapper">
+							<h2 class="entry-title"><?php esc_html_e( 'Not Found', 'gcit' ); ?></h2>
+						</header><!-- .entry-header -->
+				</div>
 
-    <div class="row">
+		<div class="row">
 
 
 

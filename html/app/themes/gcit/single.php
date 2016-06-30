@@ -8,11 +8,11 @@
 ?>
 
 	<?php get_header(); ?>
-  <div class="row z-fix" >
-    <div class="large-12 columns">
+	<div class="row z-fix" >
+		<div class="large-12 columns">
 
-    </div>
-  </div>
+		</div>
+	</div>
 </div>
 
 <div id="primary" class="content-area">
@@ -24,7 +24,7 @@
 					<?php get_template_part( 'content', get_post_format() ); ?>
 
 <div class="row grey">
-					  <div class="wrapper clearfix"><?php twentythirteen_post_nav(); ?></div></div>
+						<div class="wrapper clearfix"><?php twentythirteen_post_nav(); ?></div></div>
 					<?php comments_template(); ?>
 
 			<?php endwhile; ?>

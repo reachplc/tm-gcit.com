@@ -9,10 +9,10 @@
 
 get_header(); ?>
 <div class="row z-fix" >
-    <div class="large-12 columns">
+		<div class="large-12 columns">
 
-    </div>
-  </div>
+		</div>
+	</div>
 </div>
 
 	<div id="primary" class="content-area">
@@ -21,10 +21,10 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 		 <div class="cyan-light">
-            <header class="entry-header wrapper">
-              <h2 class="entry-title-search"><?php printf( esc_html__( 'Search Results for: %s', 'twentythirteen' ), get_search_query() ); ?></h2>
-            </header><!-- .entry-header -->
-      </div>
+						<header class="entry-header wrapper">
+							<h2 class="entry-title-search"><?php printf( esc_html__( 'Search Results for: %s', 'twentythirteen' ), get_search_query() ); ?></h2>
+						</header><!-- .entry-header -->
+			</div>
 
 
 					<div class="page-content">

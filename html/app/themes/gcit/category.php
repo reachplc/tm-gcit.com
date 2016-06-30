@@ -12,10 +12,10 @@
 
 <?php get_header(); ?>
 <div class="row z-fix" >
-    <div class="large-12 columns">
+		<div class="large-12 columns">
 
-    </div>
-  </div>
+		</div>
+	</div>
 </div>
 
 	<div id="primary" class="content-area">
