@@ -25,14 +25,14 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
 				<h1 class="archive-title"><?php
-					if ( is_day() ) :
-						printf( __( 'Daily Archives: %s', 'twentythirteen' ), get_the_date() );
+				if ( is_day() ) :
+					printf( esc_html__( 'Daily Archives: %s', 'gcit' ), get_the_date() );
 					elseif ( is_month() ) :
-						printf( __( 'Monthly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentythirteen' ) ) );
+						printf( esc_html__( 'Monthly Archives: %s', 'gcit' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'gcit' ) ) );
 					elseif ( is_year() ) :
-						printf( __( 'Yearly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentythirteen' ) ) );
+						printf( esc_html__( 'Yearly Archives: %s', 'gcit' ), get_the_date( _x( 'Y', 'yearly archives date format', 'gcit' ) ) );
 					else :
-						_e( 'Archives', 'twentythirteen' );
+						esc_html_e( 'Archives', 'gcit' );
 					endif;
 				?></h1>
 			</header><!-- .archive-header -->

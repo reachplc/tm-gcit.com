@@ -6,6 +6,7 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -26,6 +27,6 @@
 		<?php else : ?>
 			<?php twentythirteen_entry_date(); ?>
 			<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
-		<?php endif; // is_single() ?>
+		<?php endif; // End is_single. ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post -->

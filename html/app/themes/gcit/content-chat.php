@@ -6,6 +6,7 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -16,7 +17,7 @@
 		<h1 class="entry-title">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h1>
-		<?php endif; // is_single() ?>
+		<?php endif; // End is single. ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

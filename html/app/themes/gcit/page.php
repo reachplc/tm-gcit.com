@@ -1,11 +1,7 @@
 <?php
-/*
-Template Name: Page
-*/
-?>
-
-<?php
 /**
+ * Template Name: Page
+ *
  * The template for displaying all pages
  *
  * This is the template that displays all pages by default.
@@ -16,77 +12,78 @@ Template Name: Page
  * @subpackage Careers&Development
  * @since Careers&Development 1.0
  */
+
 ?>
-  <?php get_header(); ?>
-  <div class="row z-fix" >
-    <div class="large-12 columns">
-     
-    </div>
-  </div>
+	<?php get_header(); ?>
+	<div class="row z-fix" >
+		<div class="large-12 columns">
+
+		</div>
+	</div>
 </div>
 
-  <main id="primary" class="content-area">
-   
-    <?php /* The loop */ ?>
-      <?php while ( have_posts() ) : the_post(); ?>
+	<main id="primary" class="content-area">
 
-        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-          <div class="row black-bk">
-            <header class="entry-header wrapper">
-              <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-              <div class="entry-thumbnail">
-              <?php the_post_thumbnail(); ?>
-              </div>
-              <?php endif; ?>
+		<?php /* The loop */ ?>
+		<?php while ( have_posts() ) : the_post(); ?>
 
-              <h1 class="entry-title"><?php the_title(); ?></h1>
-            </header><!-- .entry-header -->
-          </div>
-          <div class="entry-content">
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<div class="row black-bk">
+						<header class="entry-header wrapper">
+				<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+							<div class="entry-thumbnail">
+				<?php the_post_thumbnail(); ?>
+							</div>
+				<?php endif; ?>
 
-                  <div class="large-5 left" style="display: flex; background-color: #333;">
-                      <div class="innermenu">
-                            
-                            <div class="icon-pointer">
-                              <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/writer' ) ); ?>">
-                              <img class="icon-pointer-img" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_writer.png' ); ?>" alt="Writer" />
-                              </a>
-                              <br /> 
-                              <a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/production' ) ); ?>">
-                              <img class="icon-pointer-img" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_production.png' ); ?>" alt="Production" />
-                              </a>
-                            </div>
-                            
-                      </div>
-                </div>
+							<h1 class="entry-title"><?php the_title(); ?></h1>
+						</header><!-- .entry-header -->
+					</div>
+					<div class="entry-content">
 
+									<div class="large-5 left" style="display: flex; background-color: #333;">
+											<div class="innermenu">
 
+														<div class="icon-pointer">
+															<a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/writer' ) ); ?>">
+															<img class="icon-pointer-img" style="padding-top: 1px;" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_writer.png' ); ?>" alt="Writer" />
+															</a>
+															<br />
+															<a href="<?php echo esc_url( home_url( '/contentwatch/regional-resources/production' ) ); ?>">
+															<img class="icon-pointer-img" src="<?php echo esc_url( get_template_directory_uri() . '/images/iconpointer_production.png' ); ?>" alt="Production" />
+															</a>
+														</div>
 
-                  <div class="large-7 right">
-                                  <div class="content-fill">
-                                        <div class="body-content">
-
-                                          <?php the_content(); ?>
-
-                                            <?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
+											</div>
+								</div>
 
 
-                                        </div>
-                                   </div>
-                          </div>
+
+									<div class="large-7 right">
+																	<div class="content-fill">
+																				<div class="body-content">
+
+											<?php the_content(); ?>
+
+																						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 
 
+																				</div>
+																	 </div>
+													</div>
 
 
 
 
-            
-  
-          </div><!-- .entry-content -->
 
-       
-      <?php endwhile; ?>
-  </main><!-- #primary -->
+
+
+
+					</div><!-- .entry-content -->
+
+
+		<?php endwhile; ?>
+	</main><!-- #primary -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -1,11 +1,7 @@
 <?php
-/*
-Template Name: Page - No Side Menu
-*/
-?>
-
-<?php
 /**
+ * Template Name: Page - No Side Menu
+ *
  * The template for displaying all pages
  *
  * This is the template that displays all pages by default.
@@ -16,63 +12,64 @@ Template Name: Page - No Side Menu
  * @subpackage GCIT
  * @since GCIT 1.0
  */
+
 ?>
-  <?php get_header(); ?>
-  <div class="row z-fix" >
-    <div class="large-12 columns">
-     
-    </div>
-  </div>
+	<?php get_header(); ?>
+	<div class="row z-fix" >
+		<div class="large-12 columns">
+
+		</div>
+	</div>
 </div>
 
-  <main id="primary" class="content-area">
-   
-    <?php /* The loop */ ?>
-      <?php while ( have_posts() ) : the_post(); ?>
+	<main id="primary" class="content-area">
 
-        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-        <div class="row black-bk">
-            <header class="entry-header wrapper">
-                <div class="large-12">
-              <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-              <div class="entry-thumbnail">
-              <?php the_post_thumbnail(); ?>
-              </div>
-              <?php endif; ?>
-              <h1 class="entry-title"><?php the_title(); ?></h1>
-              <div class="entry-title-logo">
-                <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gcit_logo.png"' ); ?>" >
-              </div>
-             </div>
-            </header><!-- .entry-header -->
-          </div>
+		<?php /* The loop */ ?>
+		<?php while ( have_posts() ) : the_post(); ?>
 
-
-          <section class="entry-content">
-
-                  
-                                  <div class="content-leftnomenu">
-
-                                          <?php the_content(); ?>
-
-                                            <?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<div class="row black-bk">
+						<header class="entry-header wrapper">
+								<div class="large-12">
+				<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+							<div class="entry-thumbnail">
+				<?php the_post_thumbnail(); ?>
+							</div>
+				<?php endif; ?>
+							<h1 class="entry-title"><?php the_title(); ?></h1>
+							<div class="entry-title-logo">
+								<img src="<?php echo esc_url( get_template_directory_uri() . '/images/gcit_logo.png"' ); ?>" >
+							</div>
+						 </div>
+						</header><!-- .entry-header -->
+					</div>
 
 
-                                   </div>
-                    
+					<section class="entry-content">
 
+
+																	<div class="content-leftnomenu">
+
+											<?php the_content(); ?>
+
+																						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
+
+
+																	 </div>
 
 
 
 
 
-            
-  
-          </section><!-- .entry-content -->
 
 
-      <?php endwhile; ?>
-  </main><!-- #primary -->
+
+
+					</section><!-- .entry-content -->
+
+
+		<?php endwhile; ?>
+	</main><!-- #primary -->
 
 
 <?php get_footer(); ?>

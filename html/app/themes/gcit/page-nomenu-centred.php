@@ -1,11 +1,7 @@
 <?php
-/*
-Template Name: Page - No Side Menu - Centred
-*/
-?>
-
-<?php
 /**
+ * Template Name: Page - No Side Menu - Centred
+ *
  * The template for displaying all pages
  *
  * This is the template that displays all pages by default.
@@ -16,45 +12,46 @@ Template Name: Page - No Side Menu - Centred
  * @subpackage GCIT
  * @since GCIT 1.0
  */
+
 ?>
-  <?php get_header(); ?>
-  <div class="row z-fix" >
-    <div class="large-12 columns">
-     
-    </div>
-  </div>
+	<?php get_header(); ?>
+	<div class="row z-fix" >
+		<div class="large-12 columns">
+
+		</div>
+	</div>
 </div>
 
-  <main id="primary" class="content-area">
-   
-    <?php /* The loop */ ?>
-      <?php while ( have_posts() ) : the_post(); ?>
+	<main id="primary" class="content-area">
 
-        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-          <div class="row black-bk">
-            <header class="entry-header wrapper">
-              <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-              <div class="entry-thumbnail">
-              <?php the_post_thumbnail(); ?>
-              </div>
-              <?php endif; ?>
+		<?php /* The loop */ ?>
+		<?php while ( have_posts() ) : the_post(); ?>
 
-              <h1 class="entry-title"><?php the_title(); ?></h1>
-            </header><!-- .entry-header -->
-          </div>
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<div class="row black-bk">
+						<header class="entry-header wrapper">
+				<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+							<div class="entry-thumbnail">
+				<?php the_post_thumbnail(); ?>
+							</div>
+				<?php endif; ?>
 
-
-          <section class="entry-content">
-                                  <div class="content-fillcenter">
-                                          <?php the_content(); ?>
-                                            <?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
-                                   </div>
-            
-          </section><!-- .entry-content -->
+							<h1 class="entry-title"><?php the_title(); ?></h1>
+						</header><!-- .entry-header -->
+					</div>
 
 
-      <?php endwhile; ?>
-  </main><!-- #primary -->
+					<section class="entry-content">
+																	<div class="content-fillcenter">
+											<?php the_content(); ?>
+																						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
+																	 </div>
+
+					</section><!-- .entry-content -->
+
+
+		<?php endwhile; ?>
+	</main><!-- #primary -->
 
 
 <?php get_footer(); ?>

@@ -81,7 +81,15 @@ function twentythirteen_setup() {
 		 * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
-		'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video',
+		'aside',
+		'audio',
+		'chat',
+		'gallery',
+		'image',
+		'link',
+		'quote',
+		'status',
+		'video',
 	) );
 
 	// This theme uses wp_nav_menu() in one location.
@@ -90,12 +98,18 @@ function twentythirteen_setup() {
 		'footer-menu', __( 'Footer Menu' )
 	);
 
+	/**
+	 * Register Navigation Menu
+	 */
 	function register_my_menu() {
 		register_nav_menu( 'writer-menu',__( 'Writer Menu' ) );
 	}
 
 	add_action( 'init', 'register_my_menu' );
 
+	/**
+	 * Register Main Site Menus
+	 */
 	function register_my_menus() {
 		register_nav_menus(
 			array(
@@ -104,7 +118,7 @@ function twentythirteen_setup() {
 				'national_writer' => __( 'National_Writer' ),
 				'national_production' => __( 'National_Production' ),
 				'support' => __( 'Support' ),
-				'video' => __( 'Video' )
+				'video' => __( 'Video' ),
 			)
 		);
 	}
@@ -136,13 +150,15 @@ add_action( 'after_setup_theme', 'twentythirteen_setup' );
 function twentythirteen_fonts_url() {
 	$fonts_url = '';
 
-	/* Translators: If there are characters in your language that are not
+	/*
+	Translators: If there are characters in your language that are not
 		 * supported by Source Sans Pro, translate this to 'off'. Do not translate
 		 * into your own language.
 	 */
 	$source_sans_pro = _x( 'on', 'Source Sans Pro font: on or off', 'twentythirteen' );
 
-	/* Translators: If there are characters in your language that are not
+	/*
+	Translators: If there are characters in your language that are not
 		 * supported by Bitter, translate this to 'off'. Do not translate into your
 		 * own language.
 	 */
@@ -227,7 +243,9 @@ function twentythirteen_scripts_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'twentythirteen_scripts_styles' );
 
-
+/**
+ * Add FitVid jQuery
+ */
 function careers_scripts_videos() {
 	global $page;
 	if ( 'useful-guides' === $page ) {
@@ -396,11 +414,11 @@ if ( ! function_exists( 'twentythirteen_post_nav' ) ) :
 	 */
 	function twentythirteen_post_nav() {
 		global $post;
-
+		// @codingStandardsIgnoreStart
 		// Don't print empty markup if there's nowhere to navigate.
-		$previous = ( is_attachment() ) ? get_post( $post->post_parent ) : get_adjacent_post( false, '', true );
-		$next     = get_adjacent_post( false, '', false );
-
+		$previous = ( is_attachment() ) ? get_post( $post->post_parent ) : get_adjacent_post( false, '', true ); // WPCS: cache ok.
+		$next     = get_adjacent_post( false, '', false ); // WPCS: cache ok.
+		// @codingStandardsIgnoreEnd
 		if ( ! $next && ! $previous ) {
 			return;
 		}
@@ -449,7 +467,7 @@ if ( ! function_exists( 'twentythirteen_entry_meta' ) ) :
 			printf( '<span class="tags-links">%1$s</span>', esc_html( $tag_list ) );
 		}
 
-		// Post author
+		// Post author.
 		if ( 'post' === get_post_type() ) {
 			printf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a></span>',
 				esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),

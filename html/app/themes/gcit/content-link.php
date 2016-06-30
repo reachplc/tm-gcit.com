@@ -6,6 +6,7 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -32,5 +33,5 @@
 			<?php get_template_part( 'author-bio' ); ?>
 		<?php endif; ?>
 	</footer><!-- .entry-meta -->
-	<?php endif; // is_single() ?>
+<?php endif; // End is_single. ?>
 </article><!-- #post -->
