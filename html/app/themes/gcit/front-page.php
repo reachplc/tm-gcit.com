@@ -108,8 +108,7 @@
 					<span class="whattexth1_cyan">GCIT was set up originally to develop, plan and implement the roll-out of ContentWatch throughout all Trinity Mirror titles.
 					 </span>
 					<br /><br />
-					<span class="whattextp">Over time the group has grown to include the CHP team, who have installed a new picture system to all areas of the company.
- </span>
+					<span class="whattextp">Over time the group has grown to include the CHP team, who have installed a new picture system to all areas of the company.</span>
 					<br /><br />
 					<span class="whattextp">Everybody in GCIT has real-world experience, with journalists, photographers, editorial support staff, IT staff and picture deskers in the line-up. </span>
 				</div>
@@ -120,8 +119,8 @@
 
 <!-- WHO WE ARE -->
 <!-- RAY DUNN -->
-<section class="home-what-blk-who" >
- <div class="wrapper">
+<section class="home-what-blk-who">
+	<div class="wrapper">
 		<div class="row">
 				<div class="large-5 left">
 						<a name="who"></a>
