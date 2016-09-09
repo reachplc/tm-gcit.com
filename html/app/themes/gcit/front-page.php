@@ -118,31 +118,32 @@
 </section>
 
 <!-- WHO WE ARE -->
-<!-- RAY DUNN -->
-<section class="home-what-blk-who">
-	<div class="wrapper">
-		<div class="row">
-				<div class="large-5 left">
-						<a name="who"></a>
-						<div class="who-cell-dark-left">
-								<img src="<?php echo esc_url( get_template_directory_uri() . '/images/whoweare.png' ); ?>" alt="What we do" class="icon_img">
-								<img src="<?php echo esc_url( get_template_directory_uri() . '/images/raydunn.png' ); ?>" alt="Ray Dunn" class="whoicon_img_sml">
+<!-- JASON DOYLE -->
+<div class="home-what-blk-who">
+		<div class="wrapper">
+				<div class="row">
+						<div class="large-5 left">
+								<div class="who-cell-dark-left">
+										<img src="<?php echo esc_url( get_template_directory_uri() . '/images/jasondoyle.png' ); ?>" alt="JASON DOYLE" class="whoicon_img_sml">
+								</div>
 						</div>
-				</div>
-				<div class="large-7 right">
-						<div class="who-cell-dark-right">
-								<p class="whattexth1_blk">RAY DUNN</p>
-								<p class="whattextp_white">Was Regional Production Editor in the Midlands, overseeing the Birmingham Mail, Birmingham Post, Coventry Telegraph, Sunday Mercury and the region's weekly titles.</p>
-								<p class="whattextp_white">He worked for the Post &amp; Mail 34 years from down-table sub to a stint as deputy editor of the Birmingham Mail before leading the Midlands ContentWatch roll-out in 2008.</p>
-								<p class="whattextp_white"> The GCIT team leader.</br>
-										<a href="mailto:ray.dunn@trinitymirror.com">ray.dunn@trinitymirror.com</a>
-										</br>
-										<b>07884 191744</b>
-								</p>
+						<div class="large-7 right">
+								<div class="who-cell-dark-right">
+										<p class="whattexth1_blk">JASON DOYLE</p>
+										<p class="whattextp_white">A techie by trade, Jason was previously with Editorial Support for 11 years with a remit to provide production support, training and development for the Daily Mirror, Sunday Mirror and The People.</p>
+										<p class="whattextp_white">The last six years was as deputy manager. He joined GCIT in September 2012, specialising in production workflows, training and support.</p>
+										<p class="whattextp_white">The GCIT team leader.</p>
+										<p class="whattextp_white">
+												<a href="mailto:jason.doyle@trinitymirror.com">jason.doyle@trinitymirror.com</a>
+												<br />
+												<b>020 7293 2185</b>
+										</p>
+								</div>
 						</div>
 				</div>
 		</div>
 </div>
+
 
 <!-- STEVE MURPHY -->
 <div class="home-what-blk-who">
@@ -194,31 +195,6 @@
 		</div>
 </div>
 
-<!-- JASON DOYLE -->
-<div class="home-what-blk-who">
-		<div class="wrapper">
-				<div class="row">
-						<div class="large-5 left">
-								<div class="who-cell-dark-left">
-										<img src="<?php echo esc_url( get_template_directory_uri() . '/images/jasondoyle.png' ); ?>" alt="JASON DOYLE" class="whoicon_img_sml">
-								</div>
-						</div>
-						<div class="large-7 right">
-								<div class="who-cell-dark-right">
-										<p class="whattexth1_blk">JASON DOYLE</p>
-										<p class="whattextp_white">A techie by trade, Jason was previously with Editorial Support for 11 years with a remit to provide production support, training and development for the Daily Mirror, Sunday Mirror and The People.</p>
-										<p class="whattextp_white">The last six years was as deputy manager. He joined GCIT in September 2012, specialising in production workflows, training and support.</p>
-										<p class="whattextp_white">The GCIT deputy team leader.</p>
-										<p class="whattextp_white">
-												<a href="mailto:jason.doyle@trinitymirror.com">jason.doyle@trinitymirror.com</a>
-												<br />
-												<b>020 7293 2185</b>
-										</p>
-								</div>
-						</div>
-				</div>
-		</div>
-</div>
 
 <!-- GAETAN COTTON -->
 <div class="home-what-blk-who" >
