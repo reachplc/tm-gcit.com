@@ -174,8 +174,8 @@ function twentythirteen_fonts_url() {
 			$font_families[] = 'Bitter:400,700'; }
 
 		$query_args = array(
-			'family' => urlencode( implode( '|', $font_families ) ),
-			'subset' => urlencode( 'latin,latin-ext' ),
+			'family' => rawurlencode( implode( '|', $font_families ) ),
+			'subset' => rawurlencode( 'latin,latin-ext' ),
 		);
 		$fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
 	}
