@@ -195,31 +195,6 @@
 		</div>
 </div>
 
-
-<!-- GAETAN COTTON -->
-<div class="home-what-blk-who" >
-	<div class="wrapper">
-		 <div class="row">
-	<div class="large-5 left">
-				<div class="who-cell-dark-left">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/images/gaetancotton.png' ); ?>" alt="Gaeten Cotton" class="whoicon_img_sml">
-				</div>
-		</div>
-		<div class="large-7 right">
-					<div class="who-cell-dark-right">
-									<p class="whattexth1_blk">GAETAN COTTON</p>
-									<p class="whattextp_white">Former Sunday Mail staff photographer, Gaetan has worked in the UK, USA and Central America as a freelance photographer for all national newspapers.</p>
-									<p class="whattextp_white">Passionate about new technology, he specialised in digital asset management and joined the CHP project in November 2011.</p>
-									<p class="whattextp_white">
-									<a href="mailto:gaeten.cotton@trinitymirror.com">gaeten.cotton@trinitymirror.com</a><br />
-								 <b>020 7293 2856</b>
-							</p>
-					 </div>
-				 </div>
-			</div>
-		</div>
-</div>
-
 <!-- NICK MAUDE -->
 <div class="home-what-blk-who">
 		<div class="wrapper">
